@@ -7,7 +7,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <meta name="author" content="TemplateMo">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -22,70 +21,57 @@
   </head>
   
   <body>
-  
-  
-    
-
   <!-- Sub Header -->
   <div class="sub-header">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-8">
+          <div class="left-content">
+            <!-- <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p> -->
+            <ul>
+              <li><a href="#contactus"><i class="fa fa-phone" style="font-size: 24px;"></i></a>+(254) 112-006-932</li>
+              <li><a href="#emailus" ><i class="fa fa-envelope" style="font-size: 24px;"></i></a>info@eldohub.co.ke</li>
+              <li><a href="#ourlocation"><i class="fa fa-map-marker" style="font-size: 24px;"></i></a> Kiptagich House, Eldoret, 6th floor</li>
+              
+            </ul>
+          </div>
           
         </div>
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook" style="font-size: 24px;"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter" style="font-size: 24px;"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin" style="font-size: 24px;"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram" style="font-size: 24px;"></i></a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
   </div>
- 
+
   <!-- ***** Header Area Start ***** -->
   <section id="home">
   <header class="header-area header-sticky" >
       <div class="container">
-          <div class="row">
-        
-                  <nav class="main-nav">
-                    <!-- <img src="assets/images/logo.png" alt=""/> -->
-                  
-                      <ul class="nav">
-                          <li ><a href="#home" class="active">HOME</a></li>
+         <img  src="assets/images/logo.png" class="logoo"/>
+         <nav class="main-nav">
+          <ul class="nav">
+          <li ><a href="#home" class="active">HOME</a></li>
                           <li><a href="#abouut" class="active">ABOUT</a></li>
                           <li ><a href="#offerr" class ="active">WHAT WE OFFER </a></li>
                           <li ><a href="#" class="active" >OUR JOURNEY</a></li>
                           <li><a href="#" class="active">TESTIMONIALS</a></li>
                           <li><a href="#" class="active">CONTACT</a></li>
-                          
 
-                      </ul>        
-                      <a class='menu-trigger'>
-                          <span>Menu</span>
-                      </a>
-                      <!-- ***** Menu End ***** -->
-                      
-                    
-                  </nav>
-          
-                
-              </div>
-             
-          </div>
-          
-          
+          </ul>
+         </nav>
       </div>
+  </header>                   
+                      <!-- ***** Menu End ***** -->                
       <!-- Section 1 of Main content -->
       
-
-      
-  </header>
   </section>
   
  
