@@ -9,6 +9,8 @@
     <meta name="description" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
 
     <title>EldoHub Kids Kona</title>
    
@@ -18,18 +20,23 @@
 
 
     <link rel="stylesheet" href="assets/css/welcome.css">
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <style>
+    
+    </style>
   </head>
   
   <body>
+  
   <!-- Sub Header -->
   <div class="sub-header">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-sm-8">
           <div class="left-content">
-            <!-- <p>This is an educational <em>HTML CSS</em> template by TemplateMo website.</p> -->
+            
             <ul>
-              <li><a href="#contactus"><i class="fa fa-phone" style="font-size: 24px;"></i></a>+(254) 112-006-932</li>
+              <li><a href="#contactgitus"><i class="fa fa-phone" style="font-size: 24px;"></i></a>+(254) 112-006-932</li>
               <li><a href="#emailus" ><i class="fa fa-envelope" style="font-size: 24px;"></i></a>info@eldohub.co.ke</li>
               <li><a href="#ourlocation"><i class="fa fa-map-marker" style="font-size: 24px;"></i></a> Kiptagich House, Eldoret, 6th floor</li>
               
@@ -40,10 +47,10 @@
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
             <ul>
-              <li><a href="#"><i class="fa fa-facebook" style="font-size: 24px;"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter" style="font-size: 24px;"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin" style="font-size: 24px;"></i></a></li>
-              <li><a href="#"><i class="fa fa-instagram" style="font-size: 24px;"></i></a></li>
+              <li><a href="https://www.facebook.com/eldohub/"><i class="fa fa-facebook"  style="font-size: 24px;" ></i></a></li>
+              <li><a href="https://twitter.com/hub_elo?lang=en"><i class="fa fa-twitter" style="font-size: 24px;"></i></a></li>
+              <li><a href="https://ke.linkedin.com/company/eldohub"><i class="fa fa-linkedin" style="font-size: 24px;"></i></a></li>
+              <li><a href="https://www.instagram.com/eldohub/?hl=en"><i class="fa fa-instagram" style="font-size: 24px;"></i></a></li>
             </ul>
           </div>
         </div>
@@ -58,12 +65,12 @@
          <img  src="assets/images/logo.png" class="logoo"/>
          <nav class="main-nav">
           <ul class="nav">
-          <li ><a href="#home" class="active">HOME</a></li>
-                          <li><a href="#abouut" class="active">ABOUT</a></li>
-                          <li ><a href="#offerr" class ="active">WHAT WE OFFER </a></li>
-                          <li ><a href="#" class="active" >OUR JOURNEY</a></li>
-                          <li><a href="#" class="active">TESTIMONIALS</a></li>
-                          <li><a href="#" class="active">CONTACT</a></li>
+          <li ><a href="#home" class="active" style="font-weight:600 ;">HOME</a></li>
+                          <li><a href="#abouut" class="active" style="font-weight:600">ABOUT</a></li>
+                          <li ><a href="#offerr" class ="active"style="font-weight:600" >WHAT WE OFFER </a></li>
+                          <li ><a href="#journeyy" class="active" style="font-weight:600">OUR JOURNEY</a></li>
+                          <li><a href="#testimonials" class="active" style="font-weight:600">TESTIMONIALS</a></li>
+                          <li><a href="#contactus" class="active" style="font-weight:600">CONTACT</a></li>
 
           </ul>
          </nav>
@@ -93,19 +100,18 @@
     </div>
     <div class="slide-controls">
       <button id="prev-btn">
-        <i class="fa fa-chevron-left"></i>
-
+        <i class="fa fa-chevron-left" style="color: #8cc63E; font-size:24px;"></i>
       </button>
-      <button class="next-btn">
-        <i class="fa fa-chevron-right"></i>
+      <button id="next-btn">
+        <i class="fa fa-chevron-right" style="color: #8cc63E; font-size: 24px;"></i>
       </button>
       <section id="home">
         <div class="welcome">
             <h1 class="title">ELDOKIDZ</h1>
             <h2 class="title2">YOUNG INNOVATORS CENTER FOR KIDS</h2>
             <div class="button">
-              <button class="btn1">ENROLL ME</button>
-              <button class="btn2">READ MORE</button>
+              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
             </div>
           
         </div> 
@@ -117,7 +123,14 @@
    <section id="abouut">
   <div class="about">
       <h6 class="bout"><b>About</b></h6>
-            <h7 style="font-size: 30px;">BootCamp Program</h7>
+            <h7 style="font-size: 30px;"><b>Kids BootCamp Program</b></h7>
+            <div class="lines">
+              <div class="diamond">
+
+              </div>
+
+            </div>
+            
             <br>
             <p2 class="p2">Kids Bootcamp program inspires children between the age of 6-17 years to be innovative, creative and acquire problem-solving skills at an early age. With the current technology, there is a need to train these children to be the creators and not just consumers of technologies. Learning to code is not only just a way of setting a career opportunity but also the most straightforward way for children to boost their creativity and problem-solving skills.
               <br>
@@ -132,7 +145,7 @@ The program allows them to learn coding with easy block-based coding before they
   </div>
   
   <div class="div3">
-  <h9 style="font-size: 30px;">Why kids BootCamp Program?</h9>
+  <h9 style="font-size: 30px;" class="h9">Why kids BootCamp Program?</h9>
   <p  class="p4">
   Our main objective is to equip kids with 21st-century skills and knowledge to understand the current technology that they interact with daily. To achieve this we equip your kid with the following skills;
 
@@ -170,7 +183,9 @@ The program allows them to learn coding with easy block-based coding before they
    
    
   <p style="font-size: 15px;">
-  Strives to promote soft skills rather than technicall skills
+  Strives to promote soft skills rather than technicall skills 
+  
+  
 
   </p>
    </div>
@@ -188,48 +203,577 @@ The program allows them to learn coding with easy block-based coding before they
 
    </div>
    <div class="div9">
-   <i style="font-size:50px" class="fa">&#xf11b;</i>
-   <p style="font-size: 15px; ">Kids create interactive games, stories, animations and solve fun puzzle which is powerful creative thinking and development of skills in problem solving</p>
+
+   <i style="font-size:48px" class="fa">&#xf11b;</i>
+   <p style="font-size: 15px; ">
+   Kids create interactive games, stories,animations and ....
+  </p>
 
    </div>
-   <div>
-   <video  class="bg-video" controls>
-          <source src="assets/images/course-video.mp4" type="video/mp4" />
-
-          <h6>
-    How Kids Learn During The program
-    </h6>
-    <p style="font-size: 15px;">In the program Kids create interactive games, stories, animations and solve fun puzzle which is powerful creative thinking and development of skills in problem solving</p>
-    <button id="myBtn" onclick="myfunction()">Pause</button>
-      </video>
+   <div >
+    
+   
+    <iframe width="1500" height="506" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframe" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
    </div>
-   <!-- <div class="video-content">
-    <h6>
-    How Kids Learn During The program
-    </h6>
-    <p style="font-size: 15px;">In the program Kids create interactive games, stories, animations and solve fun puzzle which is powerful creative thinking and development of skills in problem solving</p>
-    <button id="myBtn" onclick="myfunction()">Pause</button>
-
-   </div> -->
+   
+   
+   
    
    </section>
+  
+
    <section id="offerr">
     <div class="offer">
       <h1 class="offer1">
       <b>WHAT WE OFFER</b>
       </h1>
-      <h3 style="font-size: 30px; text-align:center"><b>Programs Available</b></h3>
-      <p4 class="p5">Kids BootCamp Program at Eldohub empowers children with powerful skills that help them design their own future through training them in core STEM fields. Following are some of the courses we offer for kids and teens;</p4>
+      <h3 style="font-size: 30px; text-align:center; padding-right: 200px; " ><b>Programs Available</b>
+    </h3>
+    
+    <!-- <div class="lines2">
+              <div class="diamond2">
+
+              </div>
+
+            </div> -->
+      <p4 class="para">Kids BootCamp Program at <a href="https://www.eldohub.co.ke/">Eldohub</a> empowers children with powerful skills that help them design their own future through training them in core STEM fields. Following are some of the courses we offer for kids and teens;</p4>
 
     </div>
+    <div class="container2">
+      <div class="zoom-in">
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container2">
+      <div class="intro">
+      <h4>Animation</h4>
+      <p class="side"><span>Animation</span> One of our objectives is to help the kids to be creators of technology. This we do by introducing them to animation where they can put their imaginative ideas into action.
+      <a href="#" id="button-apply" style="background-color: #8CC633; width: 100em; height: 15px; border-radius: 10px; font-weight: bold; color:white; cursor: pointer; border: 2px solid white">  Apply  </a>
+      </p>
+      </div>
 
+      </div>
+      <div class="zoom-in">
+      <img src="assets/images/meeting-03.jpg"   alt=""class="imag-container2">
+      <div class="intro">
+      <h4>Graphic Designs</h4>
+      <p class="side"> One of our objectives is to help the kids to be creators of technology. This we do by introducing them to animation where they can put their imaginative ideas into action.
+      <a href="#" id="button-apply" style="background-color: #8CC633; width: 100em; height: 15px; border-radius: 10px; font-weight: bold; color:white; cursor: pointer; border: 2px solid white">  Apply  </a>
+      </p>
+      </div>
+
+      </div>
+      <div class="zoom-in">
+      <img src="assets/images/meeting-03.jpg"   alt=""class="imag-container2">
+      <div class="intro">
+      <h4>Game Development</h4>
+      <p class="side"> One of our objectives is to help the kids to be creators of technology. This we do by introducing them to animation where they can put their imaginative ideas into action.
+      <a href="#" id="button-apply" style="background-color: #8CC633; width: 100em; height: 15px; border-radius: 10px; font-weight: bold; color:white; cursor: pointer; border: 2px solid white">  Apply  </a>
+      </p>
+      </div>
+
+      </div> 
+    </div>
+    <div class="imagee">
+    <div class="zoom-in">
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container2">
+      <div class="intro">
+      <h4> Creativity and design thinking</h4>
+      <p class="side">Specificity is key when solving societal problems. For this, we teach the kids to be authentic when coming up with ideas geared towards solving the chosen challenges, the end user's needs being the guiding factor.
+      <a href="#" id="button-apply" style="background-color: #8CC633; width: 100em; height: 15px; border-radius: 10px; font-weight: bold; color:white; cursor: pointer; border: 2px solid white">  Apply  </a>
+      </p>
+      </div>
+
+      </div>
+      <div class="zoom-in">
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container2">
+      <div class="intro">
+      <h4>Robotics & Electronics</h4>
+      <p class="side">Kids learn the science, engineering and technology used to program robots that replicate human actions. we provide robotics kits to enhance the learning process
+      <a href="#" id="button-apply" style="background-color: #8CC633; width: 100em; height: 15px; border-radius: 10px; font-weight: bold; color:white; cursor: pointer; border: 2px solid white">  Apply  </a>
+      </p>
+      </div>
+
+      </div>
+      <div class="zoom-in">
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container2">
+      <div class="intro">
+      <h4> Mentorship & leadership skills</h4>
+      <p class="side">Kids are not only the leaders of tomorrow but of today and for this, we have mentorship sessions for them to interact with people from different career fields in the process 
+      <a href="#" id="button-apply" style="background-color: #8CC633; width: 100em; height: 15px; border-radius: 10px; font-weight: bold; color:white; cursor: pointer; border: 2px solid white">  Apply  </a>
+      </p>
+      </div>
+
+      </div>
+
+    </div>
+    <div class="session">
+      <h1 class="session1">
+        Class sessions
+      </h1>
+      <p1 class="session-para">View the latest images of children learning in various classes. What we learn with the fun we never forget</p1>
+
+    </div>
+    <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Electronics and Robotics
+
+      </div>
+    
+      </div>
+      <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      
+Game Development
+      </div>
+    
+      </div>
+      <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Creativity and design thinking
+      </div>
+    
+      </div>
+      <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Online Safety and Cyber Security
+      </div>
+    
+      </div>
+      <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Web programming and design
+
+      </div>
+    
+      </div>
+       <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Robotics
+      </div>
+    
+      </div>
+      <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Online Safety and Cyber Security
+      </div>
+    
+      </div>
+      <div class="session-images">
+
+      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <div class="intro-session">
+      Online Safety and Cyber Security
+      </div>
+    
+      </div>
+      <div class="counter-up">
+        <div class="content-counter">
+          <div class="counter-box">
+          <div class="icon"><i class="fa fa-history"></i></div>
+          <div class="counter">724</div>
+          <div class="text">working Hours</div>
+
+          </div>
+          <div class="counter-box">
+          <div class="icon"><i class="fa fa-users"></i></div>
+          <div class="counter">724+</div>
+          <div class="counter-text">Total participation</div>
+
+          </div>
+          <div class="counter-box">
+          <div class="icon"><i class="fa fa-users"></i></div>
+          <div class="counter">724+</div>
+          <div class="text">Parents Reached</div>
+
+          </div>
+          <div class="counter-box">
+          <div class="icon"><i class="fa fa-history"></i></div>
+          <div class="counter">724</div>
+          <div class="text">Courses offered</div>
+
+          </div>
+          <div class="counter-box">
+          <div class="icon"><i class="fa fa-history"></i></div>
+          <div class="counter">4</div>
+          <div class="text">Years of operation</div>
+
+          </div>
+              
+
+        </div>
+        
+
+      </div> 
+      
+      
    </section>
-                                     
+  
+  
+   </section> 
+  
+   <section id="journeyy">
+    <div class="journey">
+      <h1 class="journ" >OUR JOURNEY</h1>
+      <p style="font-size: 20px; text-align:center; padding-right: 80px; ">Kid BootCamp journey from 2017 to present.</p>
+    </div>
+ 
+    <div class="journey-wrapper">
+      <div class="center-line">
+        <a href="#journeyy"class="scroll-iconn"><i class="fa fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="iconn fa fa-hand-o-left"></i>
+          <div class="details">
+            <span class="stitle">2017</span>
+          
+          </div>
+          <p>Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
+
+
+        </section>
+
+      </div>
+      <div class="row row-2">
+        <section>
+        <i class="iconn fa fa-hand-o-right"></i>
+          <div class="details">
+            <span class="stitle">2018</span>
+          
+          </div>
+          <p>The BootCamps started with introduction to different coding and other technological programs.</p>
+
+
+        </section>
+
+      </div>
+      <div class="center-line"></div>
+      <a href="#journeyy"class="scroll-iconn"><i class="fa fa-caret-up"></i></a>
+      <div class="row row-1">
+        <section>
+          <i class="iconn fa fa-hand-o-left"></i>
+          <div class="details">
+            <span class="stitle">2019</span>
+          
+          </div>
+          <p>Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
+
+
+        </section>
+
+      </div>
+      <div class="row row-2">
+        
+        <section>
+        <i class="iconn fa fa-hand-o-right"></i>
+          <div class="details">
+            <span class="stitle">2020</span>
+          
+          </div>
+          <p>The BootCamps started with introduction to different coding and other technological programs.</p>
+
+
+        </section>
+      </div>
+      <div class="center-line">
+      <a href="#journeyy"class="scroll-iconn"><i class="fa fa-caret-up"></i></a>
+      </div>
+        <div class="row row-1">
+        <section>
+          <i class="iconn fa fa-hand-o-left"></i>
+          <div class="details">
+            <span class="stitle">2021</span>
+          
+          </div>
+          <p>Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
+
+
+        </section>
+
+      </div>
+      <div class="row row-2">
+        <section>
+        <i class="iconn fa fa-hand-o-right"></i>
+          <div class="details">
+            <span class="stitle">2022</span>
+          
+          </div>
+          <p>The BootCamps started with introduction to different coding and other technological programs.</p>
+
+
+        </section>
+
+      </div>
+    </div>
+
+    
+      
+   </section>
+  
+   <section class="testimonials">
+    <div class="testimony" >
+      <h1 style="font-size: 25px;"><b>Testimonials From Parents</b></h1>
+      <p style="font-weight:300;font-size:medium">Parents who have enrolled their children in Kids Boot Camp program had the following to say.</p>
+    </div>
+    
+    <div class="testimony-container mySwiper">
+      
+
+      <!-- <div class="testimony-1 swiper-slide"> -->
+  
+     <!-- Swiper -->
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><h4>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:#8cc63e"></span>
+      <span class="fa fa-star" style="color:#8cc63e"></span>
+      </h4>
+      <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
+
+     
+      <p class="style-testimony" >
+      i take this opportunity to register my sincere gratitude to the eldohub community for exposing my son Tevin to basic computer programming and exiciting his passion in ICT generally,
+      </p>
+      <br>
+      <span style="font-size:20px; font-weight:bolder"><b>Betty Koros</b></span>
+      <br>
+      <span>parent</span>
+      </div>
+        <div class="swiper-slide"><h4>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      </h4>
+      <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
+
+     
+      <p class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
+     
+      </p>
+      <br>
+      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <br>
+      <span>parent</span>
+      </div>
+        <div class="swiper-slide"><h4>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      </h4>
+      <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
+
+     
+      <p style="align-items: center; display:inline-block" class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
+      kidsv
+     
+      </p>
+      <br>
+      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <br>
+      <span>parent</span>
+      </div>
+        <div class="swiper-slide">
+        <div class="swiper-slide"><h4>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      </h4>
+      <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
+
+     
+      <p style="align-items: center; display:inline-block" class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
+      kidsv
+     
+      </p>
+      <br>
+      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <br>
+      <span>parent</span>
+      </div>
+        </div>
+        <div class="swiper-slide"> <div class="swiper-slide"><h4>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      </h4>
+      <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
+
+     
+      <p style="align-items: center; display:inline-block" class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
+      kidsv
+     
+      </p>
+      <br>
+      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <br>
+      <span>parent</span>
+      </div></div>
+        
+      </div>
+      <!-- <div class="swiper-button-next" style="color: green;"></div>
+      <div class="swiper-button-prev" style="color: green;"></div> -->
+      <div class="swiper-pagination"></div>
+    </div>
+      </div>
+    
+   </section>
   
 
+    <!-- Swiper JS -->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/banner.js"></script>
+    <script src="assets/js/scrpt.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
    
-<script src="assets/js/banner.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- watch our videos -->
+    <div class="watch">
+    <h1 style="font-size: 20px;"> <b>Watch Our Videos</b>
+    <p style="font-weight:300;font-size:medium" class="watchpara">We have recorded several videos for educational purposes, about the Kids BootCamp Program, and more informative content.   You can watch the video below or from our YouTube channel.</p>
+    </h1>
+    </div>
+    <div>
+    <iframe width="1500" height="506" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframewatch" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
+      
+    </div>
+    <!-- our partners -->
+    <div class="partners">
+      <h1 style="font-size: 25px;"><b>Our Partners</b></h1>
+    </div>
+    <div>
+    <img  src="assets/images/teckids.png" class="teckids"/>
+    </div>
+    <!-- contact us section -->
+    <section class="contactus">
+    <div>
+      <h1 class="moreinfo">For More Information Contact Us</h1>
+    </div>
+    <div class="contactus-container">
+      <div class="contactusInfo">
+      <div class="contactus-box">
+        <div class="icon-contactus"><i class="fa fa-phone" aria-hidden="true"></i></div>
+          <div class="text">
+            <h1 style="font-size: 25px;">Call us</h1>
+            <p>+(254) 112-006-932</p>
+
+          </div>
+
+        </div>
+        <div class="contactus-box">
+        <div class="icon-contactus"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+          <div class="text">
+            <h1 style="font-size: 25px;">Email us:</h1>
+            <p> info@eldohub.co.ke</p>
+
+          </div>
+
+        </div>
+        <div class="contactus-box">
+        <div class="icon-contactus"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+          <div class="text">
+            <h1 style="font-size: 25px;">visit our office:</h1>
+            <p> Kiptagich House, 6th Floor, Eldoret</p>
+
+          </div>
+
+        </div>
+        <div class="contactus-box">
+        <div class="icon-contactus"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
+          <div class="text">
+            <h1 style="font-size: 25px;">Postal Address:</h1>
+            <p> PO Box 2810-30100, Eldoret, Kenya.
+</p>
+
+          </div>
+
+        </div>
+      </div>
+      <div class="contactForm">
+        <form>
+          
+        <div class="inputBox">
+        <span>Name</span>
+        <span style="color: red;">*</span>
+            <input type="text" name="" required="required">
+            
+            
+
+          </div>
+          <br>
+          
+          <div class="inputBox">
+          <span>Email</span>
+            <span style="color: red;">*</span>
+            <input type="email" email="" required="required">
+          
+
+          </div>
+          <br>
+          <div class="inputBox">
+          <span>Comment or Message </span>
+          <span style="color: red;">*</span>
+        <br>
+            <textarea required="required"></textarea>
+           
+          </div>
+          <br>
+          <div class="inputBox">
+            <input type="submit" name="" value="Submit">
+
+
+          </div>
+        </form>
+
+      </div>
+
+
+      </div>
+
+    </div>
+    </section>
+
 
 </body>
+
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/scrpt.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 
 </html>
