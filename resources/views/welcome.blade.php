@@ -1,33 +1,19 @@
-
 <!DOCTYPE html>
 <html lang="en">
-
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    
-
-
     <title>EldoHub Kids Kona</title>
-   
-
-    <!-- Bootstrap core CSS -->
+    
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
     <link rel="stylesheet" href="assets/css/welcome.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <style>
-    
-    </style>
+   
   </head>
-  
   <body>
-  
   <!-- Sub Header -->
   <div class="sub-header">
     <div class="container">
@@ -41,8 +27,7 @@
               <li><a href="#ourlocation"><i class="fa fa-map-marker" style="font-size: 24px;"></i></a> Kiptagich House, Eldoret, 6th floor</li>
               
             </ul>
-          </div>
-          
+          </div>    
         </div>
         <div class="col-lg-4 col-sm-4">
           <div class="right-icons">
@@ -512,9 +497,7 @@ Game Development
           </div>
           <p>The BootCamps started with introduction to different coding and other technological programs.</p>
 
-
         </section>
-
       </div>
     </div>
 
@@ -715,11 +698,9 @@ Game Development
         <div class="icon-contactus"><i class="fa fa-envelope-o" aria-hidden="true"></i></div>
           <div class="text">
             <h1 style="font-size: 25px;">Postal Address:</h1>
-            <p> PO Box 2810-30100, Eldoret, Kenya.
-</p>
+            <p> PO Box 2810-30100, Eldoret, Kenya.</p>
 
           </div>
-
         </div>
       </div>
       <div class="contactForm">
@@ -753,20 +734,71 @@ Game Development
           <br>
           <div class="inputBox">
             <input type="submit" name="" value="Submit">
-
-
           </div>
         </form>
-
+      </div>
       </div>
 
-
-      </div>
+    
+    </section>
+    
+    <!-- embed google map -->
+    <div class="map-container">
+      <h4><b>Our location</b></h4>
+      <iframe width="1500" height="306"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6537517135043!2d35.26623407670324!3d0.5203985638316329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1781018b02431f27%3A0xe38264b3ebe16e54!2sEldohub!5e0!3m2!1sen!2ske!4v1667442299907!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapframe"></iframe>
 
     </div>
-    </section>
 
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-container">
+      <div class="sec aboutus">
+        <h2 class="abouth2"><b>About us</b></h2>
+        <img  src="assets/images/logo.png" class="logoo-footer"/>
+        <p class="aboutp">Kiptagich House Eldoret, 6th floor</p>
+        <ul class="footer-links">
+        <li><a href="https://www.facebook.com/eldohub"><i class="fa fa-facebook" aria-hidden="true" style="color: black; font-size:20px"></i></a></li>
+        <li><a href="https://twitter.com/hub_elo?lang=en"><i class="fa fa-twitter" aria-hidden="true" style="color: black; font-size:20px"></i></a></li>
+        <li><a href="https://ke.linkedin.com/company/eldohub"><i class="fa fa-linkedin" aria-hidden="true" style="color: black; font-size:20px"></i></a></li>
+        <li><a href="https://www.instagram.com/eldohub/?hl=en"><i class="fa fa-instagram" aria-hidden="true" style="color: black; font-size:20px"></i></a></li>
+      </ul>
+      </div>
+      <div class="quicklinks">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="https://www.eldohub.co.ke/">Home</a></li>
+          <li><a href="https://www.eldohub.co.ke/about">About</a></li>
+          <li><a href="https://www.eldohub.co.ke/about">Our Stories</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Contact Us</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Team</a></li>
+        </ul>
 
+      </div>
+      <div class="tweets-footer">
+        <h2>Our Tweets</h2>
+        <a href="https://mobile.twitter.com/eldohub/with_replies">Eldohub tweets</a>
+
+      </div>
+      <div class="our-programs">
+        <h2>Our Programs</h2>
+        <ul>
+        <li><a href="https://www.eldohub.co.ke/">Consultancy & IT Solutions</a></li>
+          <li><a href="https://www.eldohub.co.ke/about">Miliki Program</a></li>
+          <li><a href="https://www.eldohub.co.ke/about">Digital Apprenticeship Program</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Kids Kona</a></li>
+          <li><a href="https://www.eldohub.co.ke/">EldoHub Innovation Academy</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Kids Kona</a></li>
+          <li><a href="https://www.eldohub.co.ke/">21c Skills</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Kids Kona</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Ecohost</a></li>
+        </ul>
+      </div>
+      <div class="copy-footer">
+        <p>Copyright © 2022, Designed & Developed by Eldohub</p>
+
+      </div>
+      </div>
+    </footer>
 </body>
 
 <script src="assets/js/swiper-bundle.min.js"></script>
