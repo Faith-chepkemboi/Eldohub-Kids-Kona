@@ -624,25 +624,6 @@ Game Development
     
    </section>
   
-
-    <!-- Swiper JS -->
-    <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/banner.js"></script>
-    <script src="assets/js/scrpt.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-
-   
-    <script>
-      var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
-        spaceBetween: 30,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script>
     <!-- watch our videos -->
     <div class="watch">
     <h1 style="font-size: 20px;"> <b>Watch Our Videos</b>
@@ -793,16 +774,22 @@ Game Development
           <li><a href="https://www.eldohub.co.ke/">Ecohost</a></li>
         </ul>
       </div>
+      </div>
+      
       <div class="copy-footer">
         <p>Copyright © 2022, Designed & Developed by Eldohub</p>
 
       </div>
-      </div>
+      
     </footer>
 </body>
 
+<!-- javascrpt files -->
 <script src="assets/js/swiper-bundle.min.js"></script>
-<script src="assets/js/scrpt.js"></script>
+<script src="assets/js/banner.js"></script>
+<script src="assets/js/swiper-bundle.min.js"></script>
+<script src="assets/js/swiper.js"></script>
+   
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>

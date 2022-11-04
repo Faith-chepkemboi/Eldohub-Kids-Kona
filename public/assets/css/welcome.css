@@ -1721,11 +1721,14 @@ header
     .footer{
       
       position: relative;
-      padding: 50px 0px ;
+      padding: 30px 0px ;
       /* padding-top: 50px; */
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      max-width: 150px;
+      padding-bottom: 0px;
+  
       margin-top: auto;
     }
     .footer-container{
@@ -1734,7 +1737,7 @@ header
       justify-content: space-between;
       flex-direction: row;
       min-width: 1500px;
-      max-height: 1000px;
+      /* max-height: 1000px; */
     }
     .logoo-footer{
       position: relative;

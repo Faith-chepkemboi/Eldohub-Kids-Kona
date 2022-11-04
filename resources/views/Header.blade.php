@@ -1,2 +1,9 @@
-<h1>hey</h1>
-@include
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>hello</title>
+  </head>
+  <body>
+
+  </body>
+</html>
