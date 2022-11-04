@@ -15,9 +15,10 @@ figure, header, nav, section, article, aside, footer, figcaption {
 }
 
 .containerr{
-  margin: 0 auto;
+  margin:auto;
   width: 100%;
   height: 400px;
+  /* background: red; */
   position:absolute;
   
 }
@@ -280,7 +281,7 @@ border: 2px solid white
   padding: 200px 50px 30px;
  
 }
-.div2:hover{
+.div2 img:hover{
   
   cursor: pointer;
   top: 10px;
@@ -1159,7 +1160,7 @@ header
 .zoom-in{
   height: 400px;
   margin: 5px;
-/
+
 }
 
 .zoom-in-session{
@@ -1223,7 +1224,7 @@ header
 .counter-up{
   background:#8cc63e;
   visibility: visible;
-  opacity: 0.6;
+  opacity: 0.87;
   min-height: 50vh;
   display: flex;
   align-items: center;
@@ -1619,7 +1620,7 @@ header
       min-height: 100vh;
       padding: 50px 100px;
       display: flex;
-      justify-content: center;
+      /* justify-content: center; */
       align-items: center;
       flex-direction: column;
       
@@ -1627,7 +1628,7 @@ header
     .contactus-container{
       
       display: flex;
-      justify-content: center;
+      /* justify-content: center; */
       align-items: center;
       margin-top: 30px;
     }
@@ -1640,6 +1641,7 @@ header
 
       position: relative;
       padding: 20px 0px;
+      padding-right: 20px;
       display: flex;
     }
     .icon-contactus {
@@ -1702,7 +1704,156 @@ header
       padding: 10px;
       font-size: 18px;
     }
+    /* embed google map */
+    .map-container{
+      width: 100%;
+      /* height: 100vh; */
+      display: flex;
+      padding-bottom: 10px;
+      align-items: center;
+      /* justify-content: center; */
+      flex-direction: column;
+    }
+    .mapframe{
+      padding: 0 100px;
+    }
+    /* footer */
+    .footer{
       
+      position: relative;
+      padding: 50px 0px ;
+      /* padding-top: 50px; */
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: auto;
+    }
+    .footer-container{
+      background: rgba(139, 68, 5, 0.959);
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      min-width: 1500px;
+      max-height: 1000px;
+    }
+    .logoo-footer{
+      position: relative;
+      height: auto;
+      left: 0px;
+      width: 250px;
+    }
+    .footer .footer-container .sec{
+      margin-right: 4px;
+      margin-left: 40px;
+      
+    }
+    .abouth2{
+      color: white;
+      font-weight: 500;
+    }
+    /* .aboutp:before{
+      content: '';
+      position: absolute;
+      bottom: -5px;
+      left: 0;
+      width: 50px;
+      height: 2px;
+      background:white;
+    } */
+    .aboutp{
+      color: white;
+      font-size: 16px;
+    }
+    .footer-links{
+      display: flex;
+      margin-top: 20px;
+
+    }
+    .footer-links li{
+      list-style: none;
+
+    }
+    .footer-links a{
+      display: inline-block;
+      width: 40px;
+      height: 40px;
+      background: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 80%;
+      margin-right: 10px;
+    }
+    .footer-links li a:hover{
+      background: #8cc63e;
+    }
+    .quicklinks{
+      /* position: relative;
+      width: 25%; */
+      color: white;
+      margin-right: 60px;
+    }
+    .quicklinks ul li{
+      list-style: none;
+    }
+    .quicklinks ul li a{
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: inline-block;
+
+    }
+    .quicklinks ul li a:hover{
+      color: #8cc63e;
+    }
+    .tweets-footer{
+      color: white;
+      margin-right: 60px;
+      
+
+    }
+    .tweets-footer a{
+      color: white;
+    }
+    .tweets-footer a:hover{
+      color: #8cc63e;
+      text-decoration: none;
+     
+
+    }
+    /* footer our programs */
+    .our-programs{
+      color: white;
+      margin-right: 260px;
+
+    }
+    .our-programs ul li{
+      list-style: none;
+    }
+    .our-programs ul li a{
+
+      color: white;
+      text-decoration: none;
+      margin-bottom: 10px;
+      display: inline-block;
+    }
+    .our-programs ul li a:hover{
+      color: #8cc63e;
+    }
+    .copy-footer{
+      background: #8cc63e;
+      min-width:1500px ; 
+      max-height: 400px;
+    }
+    .copy-footer p{
+      justify-content: center;
+      padding: 40px 0;
+      padding-left: 400px;
+    }
+    .header-area header-sticky{
+      color: rebeccapurple;
+    }
+  
 
 
 
