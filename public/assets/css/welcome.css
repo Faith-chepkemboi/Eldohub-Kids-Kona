@@ -14,6 +14,7 @@ figure, header, nav, section, article, aside, footer, figcaption {
 
 }
 
+
 .containerr{
   margin:auto;
   width: 100%;
@@ -130,6 +131,9 @@ font-weight: bold;
 color: #fff;
 cursor: pointer;
 border: 2px solid white
+}
+.button-enroll{
+  padding-top: 30px;
 }
 
 
@@ -275,10 +279,12 @@ border: 2px solid white
 .div2{
 
   width: 45.33%;
+  
   float: left;
   /* font-size: xx-large; */
   /* align-content: flex-end;  */
   padding: 200px 50px 30px;
+  /* padding: 200px 50px 30px ; */
  
 }
 .div2 img:hover{
@@ -446,7 +452,7 @@ ul, li {
 }
 
 header, nav, section, article, aside, footer, hgroup {
-  display: block;
+  display:block
 }
 
 *{
@@ -585,8 +591,10 @@ header
 
  .sub-header {
   background-color: #8cc63e;
-  position: relative;
-  z-index: 1111;
+  position:relative;
+  flex-wrap: nowrap;
+
+  /* z-index: 1111; */
 }
 
 .sub-header .left-content p {
@@ -629,7 +637,7 @@ header
   color: black;
 }
 .sub-header .left-content li a:hover {
-  color: black;
+  color: #8cc63e;
 }
 
 
@@ -1219,7 +1227,7 @@ header
   display:inline-flex;
 }
 
- 
+
 /* //counters */
 .counter-up{
   background:#8cc63e;
@@ -1856,6 +1864,103 @@ header
     .header-area header-sticky{
       color: rebeccapurple;
     }
+    /* .head{
+      background-color: rebeccapurple;
+      background-image: url({{url('assets/images/meeting-01.jpg')}})
+
+    
+      
+      
+    } */
+    .carousel-item{
+      height: 32rem;
+      background-position: center;
+      background-size: cover;
+      color:#8cc63e;
+      position: relative;
+      justify-content: center;
+
+    }
+    .carousel-container{
+    
+      position: relative;
+      bottom: 0;
+      left: 0;
+      right:0;
+
+      padding-top: 250px;
+      padding-left: 400px;
+      
+    
+    }
+    .young{
+    
+      padding-right: 400px;
+      
+
+    }
+    .overlay-image{
+      background-position: center;
+      background-size: cover;
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      right: 0;
+      left: 0;
+      opacity: 0.7;
+    }
+    .content{
+      position: relative;
+      width: 100%;
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: center;
+      padding-bottom: 50px
+      ;
+    }
+    .content .textbox{
+      position: relative;
+      max-width: 900px;
+      padding-left: 50px;
+      
+     
+      
+    }
+    .content .textbox h2 span{
+     
+      font-weight: 900;
+      color: #8cc63e;
+
+    }
+    .content .textbox a{
+      display: inline-block;
+      margin-top: 10px;
+      padding: 8px 20px;
+      background: #8cc63e;
+      color: #fff;
+      border-radius: 40px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      padding-right: 30px;
+      text-decoration: none;
+    }
+    .content .imgBox{
+      /* min-width: 600px; */
+      width: 900px; 
+      display: flex;
+      padding-left: 30px;
+      justify-content: flex-start;
+      /* padding-right: 50px; */
+      /* margin-top: 50px; */
+
+    }
+    .content .imgBox img{
+      max-width: 540px;
+    }
+   
+      
+    
+    
   
 
 

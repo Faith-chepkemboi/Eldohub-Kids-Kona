@@ -11,6 +11,8 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/welcome.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
    
   </head>
   <body>
@@ -42,10 +44,12 @@
       </div>
     </div>
   </div>
+  
+  
 
-  <!-- ***** Header Area Start ***** -->
-  <section id="home">
-  <header class="header-area header-sticky" >
+
+  <section id="home" style="color:red">
+  <header class="header-area header-stickyi" >
       <div class="container">
          <img  src="assets/images/logo.png" class="logoo"/>
          <nav class="main-nav">
@@ -60,13 +64,122 @@
           </ul>
          </nav>
       </div>
-  </header>                   
-                      <!-- ***** Menu End ***** -->                
-      <!-- Section 1 of Main content -->
       
+  </header>                                       
   </section>
   
- 
+  <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+   
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button> -->
+  </div>
+  <div class="carousel-inner">
+  <div class="carousel-item active" style="background-image: url(./assets/images/meeting-01.jpg);">
+    <!-- <div class="overlay-image"style="background-image:url(./assets/images/meeting-04.jpg);"></div> -->
+    
+    <div class="carousel-container">
+    
+  <!-- <h1 style="align-items:center;color:white">ELDOHUB-KIDS-KONA</h1> -->
+  <h2 style="color: white;">Young innovators center for children</h2>
+  <!-- <br> -->
+  <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
+  <!-- <span><p2 style="color: #8cc63e;">We inspire creativity & problem solving in kids and Teens through coding</p2></span> -->
+  <div class="button-enroll">
+              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
+            </div>
+            
+    </div>
+    
+
+  </div> 
+  
+  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
+    <div class="carousel-container">
+  <!-- <h1 style="align-items:center;color:white"><u>ELDOHUB-KIDS-KONA</u></h1> -->
+  <h2 class="young" style="color: white;">Young innovators center for children</h2>
+  <span style="color:white ;"> Areas covered:</span>
+  <br>
+  <span style="color:#8cc63e ;">1. Web App Development</span>
+  <br>
+  <span style="color:#8cc63e ;">2. Robotics, Scratch and Animations</span>
+  <br>
+  <span style="color:#8cc63e ;">5. Online Safety and Digital Litracy</span>
+  <div class="button-enroll">
+              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
+            </div>
+    
+
+    </div>
+  </div>
+  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
+    <div class="carousel-container">
+  <!-- <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1> -->
+  <h2 class="young" style="color: white;">Young innovators center for children</h2>
+  <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
+  <div class="button-enroll">
+              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
+    </div>
+
+    </div>
+  </div>
+  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
+    <div class="carousel-container">
+  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
+  <P2 class="young">Young innovators center for Kid</P2>
+
+    </div>
+  </div>
+  <div class="carousel-item"  style="background-image: url(./assets/images/meeting-01.jpg);">
+    <div class="carousel-container">
+  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
+  <P2 class="young">Young innovators center for Kid</P2>
+
+    </div>
+  </div>
+  <div class="carousel-item"  style="background-image: url(./assets/images/meeting-01.jpg);">
+    <div class="carousel-container">
+  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
+  <P2 class="young">Young innovators center for Kid</P2>
+
+    </div>
+  </div>
+  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
+    <div class="carousel-container">
+  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
+  <P2 class="young">Young innovators center for Kid</P2>
+  
+
+    </div>
+  </div>
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+  </div>
+  
+  
+  
+  
+  
+  
+  
+
+  
+<!--  
   <div class="containerr">
     <div class="slides">
       <div class="slide">
@@ -83,14 +196,14 @@
       </div>
 
     </div>
-    <div class="slide-controls">
-      <button id="prev-btn">
+    <div class="slide-controls"> -->
+      <!-- <button id="prev-btn">
         <i class="fa fa-chevron-left" style="color: #8cc63E; font-size:24px;"></i>
       </button>
       <button id="next-btn">
         <i class="fa fa-chevron-right" style="color: #8cc63E; font-size: 24px;"></i>
-      </button>
-      <section id="home">
+      </button> -->
+      <!-- <section id="home">
         <div class="welcome">
             <h1 class="title">ELDOKIDZ</h1>
             <h2 class="title2">YOUNG INNOVATORS CENTER FOR KIDS</h2>
@@ -98,13 +211,26 @@
               <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
             </div>
-          
-        </div> 
-     
-        
+        </div>    
     </section>
-    </div>
-    
+    </div> -->
+    <section id="abouut">
+    <div class="content">
+    <div class="imgBox">
+        <img src="assets/images/meeting-01.jpg" class="starbucks">
+      </div>
+      <div class="textbox">
+        <h1 style="color: #8cc63e;"><b>About</b></h1>
+        <h2>Kids <span>BootCamp</span> Program</h2>
+        <p>Kids  program  children between the age of 6-17 years to be innovative, creative and acquire problem-solving skills at an early age. <br>With the current technology, there is a need to train these children to be the creators and not just consumers of technologies. Learning to code is not only just a way of setting a career opportunity but also the most straightforward way for children to boost their creativity and problem-solving skills.
+          <br>
+The program allows them to learn coding with easy block-based coding before they transition to real-world text-based programming languages. We allow them to participate by applying the principle that belongs to mathematics and develop strong mathematical thinking that will help them in many areas of their academic and personal life.</p>
+<a href="https://www.eldohub.co.ke">Learn More</a>
+      </div>
+      
+      </div>
+    </section>
+<!--  
    <section id="abouut">
   <div class="about">
       <h6 class="bout"><b>About</b></h6>
@@ -128,7 +254,35 @@ The program allows them to learn coding with easy block-based coding before they
   <img src="assets/images/meeting-04.jpg"   alt=""/>
                                      
   </div>
-  
+   -->
+   <!-- <section id="aboutt" class="about-section-padding">
+    <div class="section container">
+      <div class="section row">
+        <div class="col-lg-4 col-md-12 col-12">
+          <div class="about-img">
+          <img src="assets/images/meeting-04.jpg"   alt="" class="img-fluid">
+
+          </div>
+
+        </div>
+        <div class="col-lg-8 col-md col-12 ps-lg-5 mt-md-5">
+          <div class="about-text">
+            <h2>About</h2>
+            <h2>Kids <span>BootCamp</span> Program</h2>
+            <p>Kids Bootcamp program inspires children between the age of 6-17 years to be innovative, creative and acquire problem-solving skills at an early age. With the current technology, there is a need to train these children to be the creators and not just consumers of technologies. Learning to code is not only just a way of setting a career opportunity but also the most straightforward way for children to boost their creativity and problem-solving skills.
+
+The program allows them to learn coding with easy block-based coding before they transition to real-world text-based programming languages. We allow them to participate by applying the principle that belongs to mathematics and develop strong mathematical thinking that will help them in many areas of their academic and personal life</p>
+<a href="#"class="btn btn-warning" style="background-color: #8cc63e;">Learn More</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+   </section> -->
   <div class="div3">
   <h9 style="font-size: 30px;" class="h9">Why kids BootCamp Program?</h9>
   <p  class="p4">
@@ -775,7 +929,6 @@ Game Development
         </ul>
       </div>
       </div>
-      
       <div class="copy-footer">
         <p>Copyright © 2022, Designed & Developed by Eldohub</p>
 
@@ -794,5 +947,8 @@ Game Development
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
 
 </html>
