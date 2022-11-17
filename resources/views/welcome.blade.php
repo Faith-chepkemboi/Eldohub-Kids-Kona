@@ -6,13 +6,17 @@
     <meta name="description" content="">
     <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js" ></script>
+    <link rel="stylesheet" href="assets/css/boxicons.min.css">
     <title>EldoHub Kids Kona</title>
     
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/welcome.css">
     <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" ></script>
    
   </head>
   <body>
@@ -54,12 +58,12 @@
          <img  src="assets/images/logo.png" class="logoo"/>
          <nav class="main-nav">
           <ul class="nav">
-          <li ><a href="#home" class="active" style="font-weight:600 ;">HOME</a></li>
-                          <li><a href="#abouut" class="active" style="font-weight:600">ABOUT</a></li>
-                          <li ><a href="#offerr" class ="active"style="font-weight:600" >WHAT WE OFFER </a></li>
-                          <li ><a href="#journeyy" class="active" style="font-weight:600">OUR JOURNEY</a></li>
-                          <li><a href="#testimonials" class="active" style="font-weight:600">TESTIMONIALS</a></li>
-                          <li><a href="#contactus" class="active" style="font-weight:600">CONTACT</a></li>
+          <li ><a href="#home" class="active" style="font-weight:600; "><b>HOME</b></a></li>
+                          <li><a href="#abouut" class="active" style="font-weight:600"><b>ABOUT</b></a></li>
+                          <li ><a href="#offerr" class ="active"style="font-weight:600" ><b>WHAT WE OFFER</b> </a></li>
+                          <li ><a href="#journeyy" class="active" style="font-weight:600"><b>OUR JOURNEY</b></a></li>
+                          <li><a href="#testimonials" class="active" style="font-weight:600"><b>TESTIMONIALS</b></a></li>
+                          <li><a href="#contactus" class="active" style="font-weight:600"><b>CONTACTS</b></a></li>
 
           </ul>
          </nav>
@@ -68,98 +72,63 @@
   </header>                                       
   </section>
   
-  <div id="myCarousel" class="carousel slide" data-bs-ride="false">
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
    
-    <div class="carousel-indicators">
+    <!-- <div class="carousel-indicators">
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
     <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    <!-- <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
-    <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button> -->
-  </div>
+  </div> -->
+  <ol class="carousel-indicators">
+    <li data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#myCarousel" data-bs-slide-to="1"></li>
+    <li data-bs-target="#myCarousel" data-bs-slide-to="2"></li>
+  </ol>
+  
   <div class="carousel-inner">
-  <div class="carousel-item active" style="background-image: url(./assets/images/meeting-01.jpg);">
-    <!-- <div class="overlay-image"style="background-image:url(./assets/images/meeting-04.jpg);"></div> -->
-    
-    <div class="carousel-container">
-    
-  <!-- <h1 style="align-items:center;color:white">ELDOHUB-KIDS-KONA</h1> -->
+  <div class="carousel-item active">
+  <!-- <div class="carousel-item active" style="background-image: url(./assets/images/meeting-01.jpg);"> -->
+  <img src="assets/images/hub05.jpg" class="d-block w-100" alt="">
+  <div class="carousel-caption d-none d-md-block">
   <h2 style="color: white;">Young innovators center for children</h2>
-  <!-- <br> -->
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
-  <!-- <span><p2 style="color: #8cc63e;">We inspire creativity & problem solving in kids and Teens through coding</p2></span> -->
-  <div class="button-enroll">
-              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+  <br>
+  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
-            </div>
-            
-    </div>
-    
-
+  
+      </div>
+    <!-- <div class="overlay-image"style="background-image:url(./assets/images/meeting-04.jpg);"></div> -->
   </div> 
   
-  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
-    <div class="carousel-container">
-  <!-- <h1 style="align-items:center;color:white"><u>ELDOHUB-KIDS-KONA</u></h1> -->
-  <h2 class="young" style="color: white;">Young innovators center for children</h2>
-  <span style="color:white ;"> Areas covered:</span>
-  <br>
-  <span style="color:#8cc63e ;">1. Web App Development</span>
-  <br>
-  <span style="color:#8cc63e ;">2. Robotics, Scratch and Animations</span>
-  <br>
-  <span style="color:#8cc63e ;">5. Online Safety and Digital Litracy</span>
-  <div class="button-enroll">
-              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
-              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
-            </div>
-    
-
-    </div>
-  </div>
-  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
-    <div class="carousel-container">
-  <!-- <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1> -->
-  <h2 class="young" style="color: white;">Young innovators center for children</h2>
+  <!-- <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);"> -->
+  <div class="carousel-item">
+  <img src="assets/images/hub02.jpg" class="d-block w-100" alt="">
+  <div class="carousel-caption d-none d-md-block">
+  <h2 style="color: white;">Young innovators center for children</h2>
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
-  <div class="button-enroll">
-              <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+  <br>
+  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
-    </div>
-
-    </div>
-  </div>
-  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
-    <div class="carousel-container">
-  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
-  <P2 class="young">Young innovators center for Kid</P2>
-
-    </div>
-  </div>
-  <div class="carousel-item"  style="background-image: url(./assets/images/meeting-01.jpg);">
-    <div class="carousel-container">
-  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
-  <P2 class="young">Young innovators center for Kid</P2>
-
-    </div>
-  </div>
-  <div class="carousel-item"  style="background-image: url(./assets/images/meeting-01.jpg);">
-    <div class="carousel-container">
-  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
-  <P2 class="young">Young innovators center for Kid</P2>
-
-    </div>
-  </div>
-  <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);">
-    <div class="carousel-container">
-  <h1 style="align-items:center"><u>ELDOHUB-KIDS-KONA</u></h1>
-  <P2 class="young">Young innovators center for Kid</P2>
   
-
-    </div>
+      </div>
   </div>
+    
+  <!-- <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);"> -->
+    <div class="carousel-item">
+    <img src="assets/images/hub01.jpg" class="d-block w-100" alt="">
+  <div class="carousel-caption d-none d-md-block">
+  <h2 style="color: white;">Young innovators center for children</h2>
+  <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
+  <br>
+  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
   
+      </div>
+    </div>
+   
+  </div>
+  <!-- <div class="carousel-item " style="background-image: url(./assets/images/meeting-01.jpg);"> -->
+     
   <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
@@ -227,7 +196,63 @@
 The program allows them to learn coding with easy block-based coding before they transition to real-world text-based programming languages. We allow them to participate by applying the principle that belongs to mathematics and develop strong mathematical thinking that will help them in many areas of their academic and personal life.</p>
 <a href="https://www.eldohub.co.ke">Learn More</a>
       </div>
-      
+      </div>
+    <!-- </section>     -->
+    </div>
+      <div class="about-container">
+        <!-- <div class="about row"> -->
+          <div class="col-12 section-intro">
+            <h1>Why kids BootCamp Program?</h1>
+            <div class="hline">
+            </div>
+          <!-- </div> -->
+          <p >Our main objective is to equip kids with 21st-century skills and knowledge to understand the current technology that they interact with daily. To achieve this we equip your kid with the following skills;</p>
+        </div>
+      </div>
+      <div class="about-row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="icon-box">
+            <i class="bx bxs-message-check"></i>
+          </div>
+          <p>problem solving skills with mathematical understanding</p>
+          
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="icon-box">
+            <i class="bx bxs-message-check"></i>
+          </div>
+          <p> Strives to promote soft skills rather than technicall skills 
+  </p>
+          
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="icon-box">
+            <i class="bx bxs-message-check"></i>
+          </div>
+          <p> promotes computational thinking, persistence and colloboration among the kids/learners</p>
+        </div>
+      </div>
+      <div class="about-row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="icon-box">
+            <i class="bx bxs-message-check"></i>
+          </div>
+          <p>Coding teaches children how to think and solve daily problems </p>
+          
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="icon-box">
+            <i class="bx bxs-message-check"></i>
+          </div>
+          <p> Kids create interactive games, stories,animations and solve fun puzzles which is powerful crerative thinking and development of the child skills in problem solving</p>
+          
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="icon-box">
+            <i class="bx bxs-message-check"></i>
+          </div>
+          <p> A deeper understanding of mathematical concepts that comes in handy for academic execellence</p>
+        </div>
       </div>
     </section>
 <!--  
@@ -283,7 +308,8 @@ The program allows them to learn coding with easy block-based coding before they
     </div>
 
    </section> -->
-  <div class="div3">
+   <!-- previous about page on why kids program -->
+  <!-- <div class="div3">
   <h9 style="font-size: 30px;" class="h9">Why kids BootCamp Program?</h9>
   <p  class="p4">
   Our main objective is to equip kids with 21st-century skills and knowledge to understand the current technology that they interact with daily. To achieve this we equip your kid with the following skills;
@@ -294,31 +320,31 @@ The program allows them to learn coding with easy block-based coding before they
   </div>
 
   
-   <div class="div4">
+   <div class="div4"> -->
    <!-- <img src="assets/images/meeting-01.jpg" alt="" style="width: 100px;"> -->
-   <i style="font-size:48px" class="fa">&#xf0e4;</i>
+   <!-- <i style="font-size:48px" class="fa">&#xf0e4;</i>
    
 
   <p style="font-size: 15px;">
   Problem solving skills with mathematical understanding
 
   </p>
-   </div>
+   </div> -->
                                      
   
    <!-- </section> -->
-   <div class="div5">
+   <!-- <div class="div5"> -->
    <!-- <img src="assets/images/meeting-01.jpg" alt="" style="width: 100px;"> -->
-   <i style="font-size:48px" class="fa" >&#xf121;</i>
+   <!-- <i style="font-size:48px" class="fa" >&#xf121;</i>
   
   <p style="font-size: 15px;">
   promotes computational thinking, persistence and colloboration among the kids/learners
 
   </p>
    </div>
-   <div class="div6">
+   <div class="div6"> -->
    <!-- <img src="assets/images/meeting-01.jpg" alt="" style="width: 100px;"> -->
-   <i style="font-size:48px" class="fa">&#xf11b;</i>
+   <!-- <i style="font-size:48px" class="fa">&#xf11b;</i>
    
    
   <p style="font-size: 15px;">
@@ -334,8 +360,8 @@ The program allows them to learn coding with easy block-based coding before they
 <p style="font-size: 15px;">A deeper understanding of mathematical concepts that comes in handy for academic execellence</p>
         
   
-   </div>
-   <div class="div8">
+   </div> -->
+   <!-- <div class="div8">
 
    <i style="font-size:48px" class="fa" >&#xf121;</i>
    <p style="font-size: 15px;">Coding teaches children how to think and solve daily problems</p>
@@ -348,26 +374,133 @@ The program allows them to learn coding with easy block-based coding before they
    Kids create interactive games, stories,animations and ....
   </p>
 
-   </div>
+   </div> -->
+   <!-- end of why booyscamp -->
    <div >
-    
-   
-    <iframe width="1500" height="506" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframe" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
+    <iframe  src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframe" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
    </div>
+   <body>
+   <section id="offerr">
+    <div class="offertitle">
+      <h1 style="font-size:25px;"><b>WHAT WE OFFER</b></h1>
+    </div>
+    <div class="offertitle2">
+    <h2><b>Programs Available</b></h2>
+    </div>
+    <div>
+      <p style="padding-left:100px;">Kids BootCamp Program at <a href="https://www.eldohub.co.ke/" style="color: #8cc63e;">Eldohub</a> empowers children with powerful skills that help them design their own future through training them in core STEM fields. Following are some of the courses we offer for kids and teens;</p>
    
-   
-   
-   
-   </section>
-  
+    </div>
+    <div class="services">
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Animations</b></h1>
+      <div class="content">
+        <p style="padding: 0 30px;">One of our objectives is to help the kids to be creators of technology. This we do by introducing them to animation where they can put their imaginative ideas into action. 
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
 
+    </div>
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Game Development</b></h1>
+      <div class="content">
+        <p style="padding: 0 5px;">Playing a game created by someone is fun but what’s interesting is creating one and having your characters do what your want. We give the kids an opportunity to create their games with the guide of our well trained team.
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+
+    </div>
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Graphic design</b></h1>
+      <div class="content">
+        <p style="padding: 0 60px;">We tap into the kids’ creative side by teaching them how to use various tools like Adobe illustrator to create amazing designs.
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+
+    </div>
+
+    </div>
+    <div class="services2">
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Creativity and design thinking</b></h1>
+      <div class="content">
+        <p style="padding: 0 30px;">Specificity is key when solving societal problems. For this, we teach the kids to be authentic when coming up with ideas geared towards solving the chosen challenges, the end user's needs being the guiding factor. 
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+
+    </div>
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Robotics & Electronics</b></h1>
+      <div class="content">
+        <p style="padding: 0 40px;">Kids learn the science, engineering and technology used to program robots that replicate human actions. we provide robotics kits to enhance the learning process
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+
+    </div>
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Mentorship & leadership skills</b></h1>
+      <div class="content">
+        <p style="padding: 0 30px;">Kids are not only the leaders of tomorrow but of today and for this, we have mentorship sessions for them to interact with people from different career fields in the process of improving their people skills and building their confidence.
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+    </div>
+    </div>
+    <div class="services">
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Web Development & Design</b></h1>
+      <div class="content">
+        <p style="padding: 0 50px;">Solving existing societal challenges requires implementation and for this, we introduce kids to web development for them to create websites to bring their projects to life.
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+
+    </div>
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Online Safety and Cyber Security</b></h1>
+      <div class="content">
+        <p style="padding: 0 10px;">Safety is what every parent and caregiver would like to provide to their kids. We cover ways in which kids can be safe online and have training for parents, teachers & caregivers as well, to ensure they all get to surf the internet carefully. 
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+
+    </div>
+    <div class="card">
+      <i class="icon fa fa-globe"></i>
+      <h1><b>Social entrepreneurship & Pitching</b></h1>
+      <div class="content">
+        <p style="padding: 0 30px;">We teach kids to use the existing problems in the society to come up with possible solutions to make life better then equip them with pitching skills to be used when need be.
+        <br><a href="#" class="button">Apply</a></p>
+          
+      </div>
+    </div>
+    </div>
+    
+
+   </section>
+
+   <!-- previous what we offer -->
+
+
+   <!-- </section>
    <section id="offerr">
     <div class="offer">
       <h1 class="offer1">
       <b>WHAT WE OFFER</b>
       </h1>
       <h3 style="font-size: 30px; text-align:center; padding-right: 200px; " ><b>Programs Available</b>
-    </h3>
+    </h3> -->
     
     <!-- <div class="lines2">
               <div class="diamond2">
@@ -375,7 +508,7 @@ The program allows them to learn coding with easy block-based coding before they
               </div>
 
             </div> -->
-      <p4 class="para">Kids BootCamp Program at <a href="https://www.eldohub.co.ke/">Eldohub</a> empowers children with powerful skills that help them design their own future through training them in core STEM fields. Following are some of the courses we offer for kids and teens;</p4>
+      <!-- <p4 class="para">Kids BootCamp Program at <a href="https://www.eldohub.co.ke/" style="color: #8cc63e;">Eldohub</a> empowers children with powerful skills that help them design their own future through training them in core STEM fields. Following are some of the courses we offer for kids and teens;</p4>
 
     </div>
     <div class="container2">
@@ -442,8 +575,108 @@ The program allows them to learn coding with easy block-based coding before they
 
       </div>
 
-    </div>
+    </div> -->
     <div class="session">
+      <h1 class="session1">
+        Class sessions
+      </h1>
+      <p1 class="session-para">View the latest images of children learning in various classes. What we learn with the fun we never forget</p1>
+
+    </div>
+    <div class="sessioncontainer">
+      <div class="col">
+        <h2 class="headsession" >Game Dev</h2>
+      <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team. 
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+        
+      </div>
+      <img src="assets/images/hub02.jpg" >
+      </div>
+      
+      <div class="col">
+        <h2 class="headsession">Creative Thinking</h2>
+        <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team.
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+       
+      </div>
+      <img src="assets/images/hub01.jpg" > 
+      </div>
+      <div class="col">
+        <h2 class="headsession">motherboards</h2>
+        <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team. 
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+       
+      </div>
+      <img src="assets/images/hub03.jpg" > 
+      </div>
+      
+      <div class="col">
+        <h2 class="headsession">Graphics</h2>
+        <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team. 
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+       
+      </div>
+      <img src="assets/images/hub04.jpg" >
+      </div>
+    </div>
+
+    <div class="sessioncontainer2">
+      <div class="col">
+        <h2 class="headsession" >Game <span>Dev</span></h2>
+      <div class=" col-12 caption" >
+      <p > We give the kids an opportunity to create their games with the guide of our well trained team. 
+      <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+        
+      </div>
+      <img src="assets/images/hub05.jpg" >
+      </div>
+      
+      <div class="col">
+        <h2 class="headsession">Creative Thinking</h2>
+        <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team.
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+      </div>
+      <img src="assets/images/hub06.jpg" > 
+      </div>
+      <div class="col">
+        <h2 class="headsession">motherboards</h2>
+        <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team.
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+      </p>
+       
+      </div>
+      <img src="assets/images/hub04.jpg" > 
+      </div>
+      
+      <div class="col">
+        <h2 class="headsession">Graphics</h2>
+        <div class="col-12 caption" >
+        <p > We give the kids an opportunity to create their games with the guide of our well trained team.
+        <a href="https://www.eldohub.co.ke"  type="button">Know more</a>
+        
+      </p>
+        
+      </div>
+      <img src="assets/images/hub02.jpg" >
+      </div>
+    </div>
+
+    <!-- previous class sessions -->
+
+
+    <!-- <div class="session">
       <h1 class="session1">
         Class sessions
       </h1>
@@ -452,7 +685,7 @@ The program allows them to learn coding with easy block-based coding before they
     </div>
     <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub01.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Electronics and Robotics
 
@@ -461,7 +694,7 @@ The program allows them to learn coding with easy block-based coding before they
       </div>
       <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub02.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       
 Game Development
@@ -470,7 +703,7 @@ Game Development
       </div>
       <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub01.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Creativity and design thinking
       </div>
@@ -478,7 +711,7 @@ Game Development
       </div>
       <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub02.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Online Safety and Cyber Security
       </div>
@@ -486,7 +719,7 @@ Game Development
       </div>
       <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub01.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Web programming and design
 
@@ -495,7 +728,7 @@ Game Development
       </div>
        <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub02.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Robotics
       </div>
@@ -503,7 +736,7 @@ Game Development
       </div>
       <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub01.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Online Safety and Cyber Security
       </div>
@@ -511,50 +744,50 @@ Game Development
       </div>
       <div class="session-images">
 
-      <img src="assets/images/meeting-02.jpg"   alt=""class="imag-container3">
+      <img src="assets/images/hub02.jpg"   alt=""class="imag-container3">
       <div class="intro-session">
       Online Safety and Cyber Security
       </div>
     
-      </div>
-      <div class="counter-up">
+      </div> -->
+     
+     
+
+      <!-- previous counter -->
+      <!-- <div class="counter-up">
         <div class="content-counter">
           <div class="counter-box">
           <div class="icon"><i class="fa fa-history"></i></div>
-          <div class="counter">724</div>
-          <div class="text">working Hours</div>
+          <div class="counter">125</div>
+          <span>+</span>
+          <div class="text">Total participants</div>
+
+          </div>
+          <div class="counter-box">   
+          <div class="icon"><i class="fa fa-users"></i></div>
+          <div class="counter">104</div>
+          <span>+</span>
+          <div class="counter-text">Parents Reached</div>
 
           </div>
           <div class="counter-box">
           <div class="icon"><i class="fa fa-users"></i></div>
-          <div class="counter">724+</div>
-          <div class="counter-text">Total participation</div>
-
-          </div>
-          <div class="counter-box">
-          <div class="icon"><i class="fa fa-users"></i></div>
-          <div class="counter">724+</div>
+          <div class="counter">9</div>
+          <span>+</span>
           <div class="text">Parents Reached</div>
 
           </div>
+          
           <div class="counter-box">
           <div class="icon"><i class="fa fa-history"></i></div>
-          <div class="counter">724</div>
-          <div class="text">Courses offered</div>
-
-          </div>
-          <div class="counter-box">
-          <div class="icon"><i class="fa fa-history"></i></div>
-          <div class="counter">4</div>
+          <div class="counter">6</div>
+          <span>+</span>
           <div class="text">Years of operation</div>
 
           </div>
-              
-
         </div>
-        
-
-      </div> 
+      </div>  -->
+      
       
       
    </section>
@@ -655,11 +888,48 @@ Game Development
       </div>
     </div>
 
+
+    <div class="wrapp-counter">
+        <div class="counter-container">
+          <i class="fa fa-user"></i>
+          <span class="counter"data-val="400">125</span>
+          <span style="color: black; " class="texte">+</span>
+          
+          <span class="text">Total participants</span>
+          
+        </div>
+        <div class="counter-container">
+          <i class="fa fa-user"></i>
+          <span class="counter "data-val="400">104</span>
+          <span style="color: black; " class="texte">+</span>
+          <span class="text">Parents Reached</span>
+        </div>
+        <div class="counter-container">
+          <i class="fa fa-history"></i>
+          <span class="counter "data-val="400">9</span>
+          <span style="color: black; " class="texte">+</span>
+          <span class="text">courses offered</span>
+        </div>
+        <div class="counter-container">
+          <i class="fa fa-history"></i>
+          <span class="counter "data-val="400">6</span>
+          <span style="color: black; " class="texte">+</span>
+          <span class="text">Years of opertaion</span>
+        </div>
+        <div class="counter-container">
+          <i class="fa fa-history"></i>
+          <span class="counter "data-val="400">20</span>
+          <span style="color: black; " class="texte">+</span>
+          <span class="text">Our Team</span>
+        </div>
+
+      </div>
+
     
       
    </section>
   
-   <section class="testimonials">
+   <section id="testimonials">
     <div class="testimony" >
       <h1 style="font-size: 25px;"><b>Testimonials From Parents</b></h1>
       <p style="font-weight:300;font-size:medium">Parents who have enrolled their children in Kids Boot Camp program had the following to say.</p>
@@ -668,9 +938,7 @@ Game Development
     <div class="testimony-container mySwiper">
       
 
-      <!-- <div class="testimony-1 swiper-slide"> -->
-  
-     <!-- Swiper -->
+      
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><h4>
@@ -760,7 +1028,7 @@ Game Development
 
      
       <p style="align-items: center; display:inline-block" class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
-      kidsv
+      
      
       </p>
       <br>
@@ -785,7 +1053,7 @@ Game Development
     </h1>
     </div>
     <div>
-    <iframe width="1500" height="506" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframewatch" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
+    <iframe width="1200" height="506" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframewatch" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
       
     </div>
     <!-- our partners -->
@@ -796,7 +1064,7 @@ Game Development
     <img  src="assets/images/teckids.png" class="teckids"/>
     </div>
     <!-- contact us section -->
-    <section class="contactus">
+    <section id="contactus">
     <div>
       <h1 class="moreinfo">For More Information Contact Us</h1>
     </div>
@@ -880,7 +1148,7 @@ Game Development
     <!-- embed google map -->
     <div class="map-container">
       <h4><b>Our location</b></h4>
-      <iframe width="1500" height="306"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6537517135043!2d35.26623407670324!3d0.5203985638316329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1781018b02431f27%3A0xe38264b3ebe16e54!2sEldohub!5e0!3m2!1sen!2ske!4v1667442299907!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapframe"></iframe>
+      <iframe width="1000" height="306"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6537517135043!2d35.26623407670324!3d0.5203985638316329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1781018b02431f27%3A0xe38264b3ebe16e54!2sEldohub!5e0!3m2!1sen!2ske!4v1667442299907!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapframe"></iframe>
 
     </div>
 
@@ -942,6 +1210,8 @@ Game Development
 <script src="assets/js/banner.js"></script>
 <script src="assets/js/swiper-bundle.min.js"></script>
 <script src="assets/js/swiper.js"></script>
+<script src="assets/js/counter.js"></script>
+
    
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" ></script>

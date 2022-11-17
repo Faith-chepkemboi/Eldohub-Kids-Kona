@@ -24,8 +24,15 @@
   <link href="assets3/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets3/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!-- Template Main CSS File -->
   <link href="assets3/css/style.css" rel="stylesheet">
 
+  <!-- =======================================================
+  * Template Name: BizPage - v5.10.1
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
 
 <body>
@@ -37,7 +44,8 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-xl-11 d-flex align-items-center justify-content-between">
           <h1 class="logo"><a href="index.html">BizPage</a></h1>
-          
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
           <nav id="navbar" class="navbar">
             <ul>
@@ -55,7 +63,7 @@
               <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
             </ul>
             <i class="bi bi-list mobile-nav-toggle"></i>
-          </nav>
+          </nav><!-- .navbar -->
         </div>
       </div>
 
@@ -133,17 +141,6 @@
 
       </div>
     </div>
-  </section>
-  <script src="assets3/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets3/vendor/aos/aos.js"></script>
-  <script src="assets3/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets3/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets3/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets3/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets3/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets3/vendor/php-email-form/validate.js"></script>
-
-
-  <script src="assets3/js/main.js"></script>
+  </section><!-- End Hero Section -->
 </body>
 </html>
