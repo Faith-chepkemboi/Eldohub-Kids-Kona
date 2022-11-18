@@ -20,6 +20,8 @@
    
   </head>
   <body>
+  <div class="header" id="myHeader">
+  <!-- <section id="home"> -->
   <!-- Sub Header -->
   <div class="sub-header">
     <div class="container">
@@ -28,9 +30,9 @@
           <div class="left-content">
             
             <ul>
-              <li><a href="#contactgitus"><i class="fa fa-phone" style="font-size: 24px;"></i></a>+(254) 112-006-932</li>
-              <li><a href="#emailus" ><i class="fa fa-envelope" style="font-size: 24px;"></i></a>info@eldohub.co.ke</li>
-              <li><a href="#ourlocation"><i class="fa fa-map-marker" style="font-size: 24px;"></i></a> Kiptagich House, Eldoret, 6th floor</li>
+              <li style="color:white ;"><a href="#contactgitus"><i class="fa fa-phone" style="font-size: 24px;"></i></a>+(254) 112-006-932</li>
+              <li style="color:white ;"><a href="#emailus" ><i class="fa fa-envelope" style="font-size: 24px;"></i></a>@eldohub.co.ke</li>
+              <li style="color:white ;"><a href="#ourlocation"><i class="fa fa-map-marker" style="font-size: 24px;"></i></a>Kiptagich House, Eldoret, 6th floor</li>
               
             </ul>
           </div>    
@@ -47,14 +49,14 @@
         </div>
       </div>
     </div>
-  </div>
+  <!-- </div> -->
   
   
 
 
-  <section id="home" style="color:red">
-  <header class="header-area header-stickyi" >
-      <div class="container">
+ 
+  
+      <div class="home-container">
          <img  src="assets/images/logo.png" class="logoo"/>
          <nav class="main-nav">
           <ul class="nav">
@@ -68,9 +70,34 @@
           </ul>
          </nav>
       </div>
+  </div>
       
-  </header>                                       
-  </section>
+  <!-- </header>   -->
+  <!-- <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(){
+      var header =document.querySelector("header");
+      header.classList.toggle("sticky", window.scrollY > 0);
+    })
+
+  </script>  -->
+  <script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+                                   
+  <!-- </section> -->
+  <section id="home">
   
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
    
@@ -139,6 +166,7 @@
   </button>
 </div>
   </div>
+  </section>
   
   
   
@@ -189,7 +217,7 @@
         <img src="assets/images/meeting-01.jpg" class="starbucks">
       </div>
       <div class="textbox">
-        <h1 style="color: #8cc63e;"><b>About</b></h1>
+        <h1 style="color: #8cc63e; font-size:20px"><b>About</b></h1>
         <h2>Kids <span>BootCamp</span> Program</h2>
         <p>Kids  program  children between the age of 6-17 years to be innovative, creative and acquire problem-solving skills at an early age. <br>With the current technology, there is a need to train these children to be the creators and not just consumers of technologies. Learning to code is not only just a way of setting a career opportunity but also the most straightforward way for children to boost their creativity and problem-solving skills.
           <br>
@@ -832,19 +860,15 @@ Game Development
 
       </div>
       <div class="center-line"></div>
-      <a href="#journeyy"class="scroll-iconn"><i class="fa fa-caret-up"></i></a>
+      <a href="#journeyy"class="scroll-iconn"></a>
       <div class="row row-1">
         <section>
           <i class="iconn fa fa-hand-o-left"></i>
           <div class="details">
             <span class="stitle">2019</span>
-          
           </div>
-          <p>Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
-
-
+          <p class="col-12">Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
         </section>
-
       </div>
       <div class="row row-2">
         
@@ -869,7 +893,7 @@ Game Development
             <span class="stitle">2021</span>
           
           </div>
-          <p>Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
+          <p class="col-12">Started the Kids BootCamp  program where it was developed by the Eldohub Team.</p>
 
 
         </section>
@@ -882,7 +906,7 @@ Game Development
             <span class="stitle">2022</span>
           
           </div>
-          <p>The BootCamps started with introduction to different coding and other technological programs.</p>
+          <p class="col-12">The BootCamps started with introduction to different coding and other technological programs.</p>
 
         </section>
       </div>
