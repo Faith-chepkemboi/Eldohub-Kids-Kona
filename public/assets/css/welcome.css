@@ -1453,6 +1453,7 @@ header
   font-size: 35px;
   text-align: center;
   
+  
   float: center;
   padding: 8px 30px 0px 2px;
 }
@@ -1546,10 +1547,11 @@ header
 }
 .slide-container{
   display: flex;
+  background-color: red;
 
 }
 .swiper-slide{
-  background: white;
+  background: gainsboro;
   display: flex
 }
 .swiper {
@@ -1560,7 +1562,7 @@ header
       .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background:#8cc63e;
+      
 
         /* Center slide text vertically */
         display: -webkit-box;

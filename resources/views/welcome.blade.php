@@ -954,14 +954,14 @@ Game Development
       <h1 style="font-size: 25px;"><b>Testimonials From Parents</b></h1>
       <p style="font-weight:300;font-size:medium">Parents who have enrolled their children in Kids Boot Camp program had the following to say.</p>
     </div>
-    
-    <div class="testimony-container mySwiper" style="padding-left:50px">
+    <div style="background-color:red;">
+    <div class="testimony-container mySwiper" style="padding-left:50px" >
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide"><h4>
-      <span class="fa fa-star checked" style="color:white"></span>
-      <span class=" fa fa-star checked" style="color:white"></span>
-      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:#8cc63e"></span>
+      <span class=" fa fa-star checked" style="color:#8cc63e"></span>
+      <span class="fa fa-star checked" style="color:#8cc63e"></span>
       <span class="fa fa-star" style="color:#8cc63e"></span>
       <span class="fa fa-star" style="color:#8cc63e"></span>
       </h4>
@@ -977,11 +977,11 @@ Game Development
       <span>parent</span>
       </div>
         <div class="swiper-slide"><h4>
-      <span class="fa fa-star checked" style="color:white"></span>
-      <span class=" fa fa-star checked" style="color:white"></span>
-      <span class="fa fa-star checked" style="color:white"></span>
-      <span class="fa fa-star" style="color:white"></span>
-      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:#8cc63e"></span>
+      <span class=" fa fa-star checked" style="color:#8cc63e"></span>
+      <span class="fa fa-star checked" style="color:#8cc63e"></span>
+      <span class="fa fa-star" style="color:#8cc63e"></span>
+      <span class="fa fa-star" style="color:#8cc63e"></span>
       </h4>
       <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
 
@@ -995,11 +995,11 @@ Game Development
       <span>parent</span>
       </div>
         <div class="swiper-slide"><h4>
-      <span class="fa fa-star checked" style="color:white"></span>
-      <span class=" fa fa-star checked" style="color:white"></span>
-      <span class="fa fa-star checked" style="color:white"></span>
-      <span class="fa fa-star" style="color:white"></span>
-      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:#8cc63e"></span>
+      <span class=" fa fa-star checked" style="color:#8cc63e"></span>
+      <span class="fa fa-star checked" style="color:#8cc63e"></span>
+      <span class="fa fa-star" style="color:#8cc63e"></span>
+      <span class="fa fa-star" style="color:#8cc63e"></span>
       </h4>
       <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
 
@@ -1059,6 +1059,7 @@ Game Development
       <div class="swiper-pagination"></div>
     </div>
       </div>
+    </div>
     
    <!-- </section> -->
   
