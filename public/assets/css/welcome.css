@@ -1,7 +1,7 @@
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
 
-/* html, div, span, applet, object, iframe, h1, h2, h4, h5, h6, p, blockquote, div
+html, div, span, applet, object, iframe, h1, h2, h4, h5, h6, p, blockquote, div
 pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q,
 s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
 figure, header, nav, section, article, aside, footer, figcaption {
@@ -9,14 +9,16 @@ figure, header, nav, section, article, aside, footer, figcaption {
   padding: 0;
   border: 0;
   outline: 0;
+  /* font-family: 'Poppins', sans-serif; */
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
 
 
 
-} */
+} 
 
 
 .containerr{
-  margin:auto;
+  /* margin:auto; */
   width: 100%;
   height: 400px;
   /* background: red; */
@@ -389,7 +391,7 @@ border: 2px solid white
   position: relative;
   font-size: 18px;
   border: none;
-  background:#a12c2f;
+  /* background:#a12c2f; */
   color: white;
   cursor: pointer; 
 }
@@ -408,12 +410,12 @@ border: 2px solid white
 }
 
 .abouut{
-  background-color:pink;
+  /* background-color:pink; */
 }
 .offerr{
 
 
-  background-color: #a12c2f;
+  /* background-color: #a12c2f; */
   display: flex;
   /* float:right; */
   
@@ -460,7 +462,7 @@ header, nav, section, article, aside, footer, hgroup {
 }
 
 html, body {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat';
   font-weight: 400;
 
   font-size: 16px;
@@ -508,7 +510,7 @@ global styles
 html,
 body {
   background:white;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat';
   
 }
 
@@ -593,11 +595,17 @@ header
   background-color: #8cc63e;
   position:relative;
   padding-bottom: 0px;
-  /* flex-wrap: nowrap; */
-  /* max-width: 1100px; */
+  z-index: 999;
+  position: fixed;
+  width: 100%;
   
+}
 
-  /* z-index: 1111; */
+.carousel-inner{
+  color: red;
+  position: fixed;
+  width: 100%;
+  
 }
 
 .sub-header .left-content p {
@@ -707,7 +715,15 @@ header
 .home-container{
   padding-bottom: 70px;
   background-color: white;
-  /* max-width: 1100px; */
+  
+ 
+}
+.home-slider{
+  padding-top: 100px;
+  width: 100%;
+  
+  position: relative;
+  
 }
 
 
@@ -1283,12 +1299,12 @@ header
     margin-bottom: 50px;
   }
   
-} 
-@media(max-width){
+}  
+  @media(max-width){
   .content-counter .counter-box{
     width: 100%;
   }
-}
+} 
 /* our journey section */
 .journ{
   color: black;
@@ -1336,7 +1352,8 @@ header
 
 .journey-wrapper{
   /* background-color: #f5a425; */
-  max-width: 1080px;
+  width: 1080px;
+  /* max-width: 1080px; */
   margin: 50px auto;
   height: 50%;
   padding: 0 20px;
@@ -1349,7 +1366,7 @@ header
 
 }
 .journey-wrapper .row section{
-  background: grey;
+  background: #8cc63e;
   border-radius: 5px;
   width: calc(50% - 40px);
   padding: 20px;
@@ -1361,7 +1378,7 @@ header
   content: "";
   height: 15px;
   width: 15px;
-  background:grey;
+  background:#8cc63e;
   transform: rotate(45deg);
   z-index: -1;
   /* top: -28px; */
@@ -1433,14 +1450,14 @@ header
 
 .testimony{
   color: black;
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   
   float: center;
   padding: 8px 30px 0px 2px;
 }
 .testimony-container{
-  width: 1000px;
+  /* width: 1000px; */
   display: flex;
   align-items: center;
   flex-direction:row;
@@ -1453,13 +1470,13 @@ header
 
 }
 .slide-content{
-    width: 1500px;
+    width: 100%;
   display: flex;
   align-items: center;
   flex-direction:row;
   position: relative;
   justify-content: space-between;
-  width: 100%;
+  
   /* flex-wrap: wrap; */
   
 
@@ -1509,7 +1526,7 @@ header
   
   opacity: 0.5;
   color: #f9c563;
-  width: 1345px;
+  width: 100%;
   height: 506px;
 }
 .slide-content{
@@ -1579,11 +1596,11 @@ header
       /* watch our videos */
     .watch{
       color: black;
-      width: 1500px;
-  
+      width: 100%;
       text-align: center;
-      float: center;
-      padding: 8px 30px 0px 2px;
+      /* float: center;
+      padding: 8px 30px 0px 2px; */
+      padding-top: 50px;
     }
     .watchpara{
       padding: 0 200px;
@@ -1596,7 +1613,8 @@ header
 
     }
     .iframewatch{
-      padding: 0 100px;
+      /* padding: 0 100px; */
+      padding-left: 10px;
     }
     /* our partners */
     .partners{
@@ -1626,6 +1644,9 @@ header
     
 
     }
+    .videoframe{
+      display: flex;
+    }
     /* contact us */
     .contactus{
       position: relative;
@@ -1643,17 +1664,21 @@ header
       /* justify-content: center; */
       align-items: center;
       margin-top: 30px;
+      /* padding-left: 50px; */
+      width: 100%;
+     
     }
     .contactusInfo{
-      width: 50%;
+      padding-left: 40px;
+      /* width: 50%; */
       display: flex;
       flex-direction: column;
     }
     .contactus-box{
 
       position: relative;
-      padding: 20px 0px;
-      padding-right: 20px;
+      /* padding: 20px 0px; */
+      /* padding-right: 20px; */
       display: flex;
     }
     .icon-contactus {
@@ -1680,6 +1705,9 @@ header
     .contactus-container .contactusInfo .contactus-box h1{
       font-weight: 500;
     
+    }
+    .contactForm{
+     /* background-color: red; */
     }
     .contactForm h2{
       font-size: 25px;
@@ -1738,6 +1766,7 @@ header
       display: flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      padding-left: 2px;
       /* max-width: 150px; */
       padding-bottom: 0px;
   
@@ -1748,8 +1777,8 @@ header
       display: flex;
       justify-content: space-between;
       flex-direction: row;
-      min-width: 1200px;
-      /* max-height: 1000px; */
+      width: 100%;
+     
     }
     .logoo-footer{
       position: relative;
@@ -1766,15 +1795,7 @@ header
       color: white;
       font-weight: 500;
     }
-    /* .aboutp:before{
-      content: '';
-      position: absolute;
-      bottom: -5px;
-      left: 0;
-      width: 50px;
-      height: 2px;
-      background:white;
-    } */
+    
     .aboutp{
       color: white;
       font-size: 16px;
@@ -1857,25 +1878,15 @@ header
     }
     .copy-footer{
       background: #8cc63e;
-      width:1500px ; 
-      max-height: 400px;
+      width: 100%;
+      height: 110px;
     }
     .copy-footer p{
       justify-content: center;
       padding: 40px 0;
       padding-left: 400px;
     }
-    /* .header-area header-sticky{
-      color: rebeccapurple;
-    } */
-    /* .head{
-      background-color: rebeccapurple;
-      background-image: url({{url('assets/images/meeting-01.jpg')}})
-
     
-      
-      
-    } */
 
     /* carousel slider */
     .carousel-item{
@@ -1907,17 +1918,25 @@ header
     }
     
     .content{
-      position: relative;
-      width: 100%;
+      
+      position:relative;
       display: flex;
-      /* justify-content: space-between; */
       align-items: center;
-      /* padding-bottom: 5px */
-      ;
+      align-content: center;
+     
+      
+      
+      
+      
+     
+      
+      
+      
+      
     }
     .content .textbox{
       position: relative;
-      max-width: 900px;
+      /* max-width: 900px; */
       padding-left: 50px;
       
      
@@ -2232,7 +2251,7 @@ header
       
     }
     .counter-container{
-      width: 250px;
+      width: 340px;
       height: 35vmin;
       border: 1px solid white;
       display: flex;
@@ -2242,26 +2261,27 @@ header
       position: relative;
       font-size: 16px;
       border-radius: 0.5em;
-      background-color: gray;
+      background-color: #8cc63e;
       border-bottom: 20px solid white;
     }
     .counter-container i{
-      color: rgb(139, 68, 5);
+      color: black;
       font-size: 2.4em;
       text-align: center;
     }
     .counter-container span.counter{
-      color: black;
+      color: white;
       display: grid;
       place-items: center;
       font-weight: 600;
       font-size: 3em;
     }
     .counter-container span.text{
-      color: white;
+      color: black;
       font-size: 1em;
       text-align: center;
       pad: 0.5em 0;
+      font-family: 'Montserrat';
       font-weight: 400;
       line-height: 0;
     }
