@@ -102,13 +102,19 @@ function myFunction() {
   <div class="carousel-inner">
   <div class="carousel-item active">
 
-  <img src="assets/images/hub05.jpg" class="d-block w-100" alt="">
+  <img src="assets/images/hub19.jpg" class="d-block w-100" alt="">
   <div class="carousel-caption d-none d-md-block">
   <h2 style="color: white;">Young innovators center for children</h2>
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
   <br>
-  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
-              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
+  <br>
+  <div class="butt">
+  
+  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button> <span>
+              <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button></span>
+              <br>
+              <br>
+  </div>
   
       </div>
    
@@ -116,25 +122,32 @@ function myFunction() {
   
  
   <div class="carousel-item">
-  <img src="assets/images/hub02.jpg" class="d-block w-100" alt="">
-  <div class="carousel-caption d-none d-md-block">
+  <img src="assets/images/hub20.jpg" class="d-block w-100" alt="">
+  <div class="carousel-caption d-none d-md-block" >
   <h2 style="color: white;">Young innovators center for children</h2>
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
   <br>
+  <br>
   <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
+              <br>
+              <br>
   
       </div>
   </div>
     
     <div class="carousel-item">
     <img src="assets/images/hub01.jpg" class="d-block w-100" alt="">
-  <div class="carousel-caption d-none d-md-block">
+  <div class="carousel-caption d-none d-md-block"  style="padding-bottom:50px" >
   <h2 style="color: white;">Young innovators center for children</h2>
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
   <br>
+  <br>
   <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
+
+              <br>
+              
   
       </div>
     </div>
@@ -704,6 +717,8 @@ The program allows them to learn coding with easy block-based coding before they
       <p1 class="session-para">View the latest images of children learning in various classes. What we learn with the fun we never forget</p1>
 
     </div>
+    <div class="sessionsec" >
+      <div class="sessionsec2">
     <div class="session-images">
 
       <img src="assets/images/hub20.jpg"   alt=""class="imag-container3">
@@ -769,8 +784,10 @@ Game Development
       <div class="intro-session">
       Online Safety and Cyber Security
       </div>
+      </div>
     
       </div> 
+    </div>
      
      
 
@@ -846,7 +863,7 @@ Game Development
             <span class="stitle">2018</span>
           
           </div>
-          <p>The BootCamps started with introduction to different coding and other technological programs.</p>
+          <p class="col-12"> The BootCamps started with introduction to different coding and other technological programs.</p>
 
 
         </section>
@@ -871,7 +888,7 @@ Game Development
             <span class="stitle">2020</span>
           
           </div>
-          <p>The BootCamps started with introduction to different coding and other technological programs.</p>
+          <p class="col-12">The BootCamps started with introduction to different coding and other technological programs.</p>
 
 
         </section>
@@ -952,36 +969,41 @@ Game Development
    <section id="testimonials">
     <div class="testimony" >
       <h1 style="font-size: 25px;"><b>Testimonials From Parents</b></h1>
-      <p style="font-weight:300;font-size:medium">Parents who have enrolled their children in Kids Boot Camp program had the following to say.</p>
+      <p style="font-weight:600;padding-right:20px">Parents who have enrolled their children in Kids Boot Camp program had the following to say.</p>
     </div>
-    <div style="background-color:red;">
-    <div class="testimony-container mySwiper" style="padding-left:50px" >
+    <div class="testmain">
+    <div class="testimony-container mySwiper" style="padding-left:50px;padding-right:50px" >
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
-        <div class="swiper-slide"><h4>
-      <span class="fa fa-star checked" style="color:#8cc63e"></span>
-      <span class=" fa fa-star checked" style="color:#8cc63e"></span>
-      <span class="fa fa-star checked" style="color:#8cc63e"></span>
-      <span class="fa fa-star" style="color:#8cc63e"></span>
-      <span class="fa fa-star" style="color:#8cc63e"></span>
+        <div class="swiper-slide"><h4 style="padding-top:7px">
+          
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
       </h4>
       <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
 
      
-      <p class="style-testimony" >
+      <p class="style-testimony col-12" >
       i take this opportunity to register my sincere gratitude to the eldohub community for exposing my son Tevin to basic computer programming and exiciting his passion in ICT generally,
       </p>
-      <br>
-      <span style="font-size:20px; font-weight:bolder"><b>Betty Koros</b></span>
-      <br>
+      <div class="image">
+        <img src="assets/images/hub03.jpg" alt="">
+
+      </div>
+      
+      <span style="font-size:20px; font-weight:bolder"><b>Betty Koros, </b></span>
+      <!-- <br> -->
       <span>parent</span>
       </div>
-        <div class="swiper-slide"><h4>
-      <span class="fa fa-star checked" style="color:#8cc63e"></span>
-      <span class=" fa fa-star checked" style="color:#8cc63e"></span>
-      <span class="fa fa-star checked" style="color:#8cc63e"></span>
-      <span class="fa fa-star" style="color:#8cc63e"></span>
-      <span class="fa fa-star" style="color:#8cc63e"></span>
+        <div class="swiper-slide"><h4  style="padding-top:7px">
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
       </h4>
       <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
 
@@ -989,32 +1011,40 @@ Game Development
       <p class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
      
       </p>
-      <br>
-      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <div class="image">
+        <img src="assets/images/hub03.jpg" alt="">
+
+      </div>
+      <!-- <br> -->
+      <span style="font-size:20px; font-weight:bolder"><b>Daisy Wachira</b></span>
       <br>
       <span>parent</span>
       </div>
-        <div class="swiper-slide"><h4>
-      <span class="fa fa-star checked" style="color:#8cc63e"></span>
-      <span class=" fa fa-star checked" style="color:#8cc63e"></span>
-      <span class="fa fa-star checked" style="color:#8cc63e"></span>
-      <span class="fa fa-star" style="color:#8cc63e"></span>
-      <span class="fa fa-star" style="color:#8cc63e"></span>
+        <div class="swiper-slide"><h4  style="padding-top:7px">
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class=" fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star checked" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
+      <span class="fa fa-star" style="color:white"></span>
       </h4>
       <i class='fa fa-quote-left' style='font-size:24px;color:black'></i>
 
      
-      <p style="align-items: center; display:inline-block" class="style-testimony">Thank you so much for the wonderful job your are doing for our kids
+      <p style="align-items: center; display:inline-block" class="style-testimony col-12">Thank you so much for the wonderful job your are doing for our kids
       kidsv
      
       </p>
+      <div class="image">
+        <img src="assets/images/hub03.jpg" alt="">
+
+      </div>
       <br>
-      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <span style="font-size:20px; font-weight:bolder"><b>Daisy Wachira</b></span>
       <br>
       <span>parent</span>
       </div>
         <div class="swiper-slide">
-        <div class="swiper-slide"><h4>
+        <div class="swiper-slide"><h4  style="padding-top:7px">
       <span class="fa fa-star checked" style="color:white"></span>
       <span class=" fa fa-star checked" style="color:white"></span>
       <span class="fa fa-star checked" style="color:white"></span>
@@ -1028,8 +1058,12 @@ Game Development
       kidsv
      
       </p>
+      <div class="image">
+        <img src="assets/images/hub03.jpg" alt="">
+
+      </div>
       <br>
-      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <span style="font-size:20px; font-weight:bolder"><b>Daisy Wachira</b></span>
       <br>
       <span>parent</span>
       </div>
@@ -1048,8 +1082,13 @@ Game Development
       
      
       </p>
+      <div class="image">
+        <img src="assets/images/hub03.jpg" alt="">
+
+      </div>
+      
       <br>
-      <span style="font-size:20px; font-weight:bolder">Daisy Wachira</span>
+      <span style="font-size:20px; font-weight:bolder"><b>Daisy Wachira</b></span>
       <br>
       <span>parent</span>
       </div></div>
@@ -1071,8 +1110,8 @@ Game Development
     </div>
     <div class="videoframe">
     <iframe width="25.3%" height="200px" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframewatch" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
-    <iframe width="25.3%" height="200px" src="https://www.youtube.com/embed/aoSHmfqsan0" title="Eldo Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      <iframe width="25.3%" height="200px" src="https://www.youtube.com/embed/ZgLsCw8ucKE" title="Kids BootCamp program by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="25.3%" height="200px" src="https://www.youtube.com/embed/aoSHmfqsan0" class="iframewatch" title="Eldo Hub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe width="25.3%" height="200px" src="https://www.youtube.com/embed/ZgLsCw8ucKE"class="iframewatch" title="Kids BootCamp program by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     <iframe width="25.3%" height="200px" src="https://www.youtube.com/embed/aEjCR5Hfpsc" class="iframewatch" title="An online safety workshop for parents and caregivers by Eldohub" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen  ></iframe>
    
       
@@ -1081,10 +1120,12 @@ Game Development
     <div class="partners">
       <h1 style="font-size: 25px;"><b>Our Partners</b></h1>
     </div>
-    <div>
+    <div class="tech" style="align-items:center;">
     <img  src="assets/images/teckids.png" class="teckids"/>
     </div>
    </section>
+
+
     <!-- contact us section -->
     <section id="contactus">
     <div>
@@ -1113,8 +1154,8 @@ Game Development
         <div class="contactus-box">
         <div class="icon-contactus"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
           <div class="text">
-            <h1 style="font-size: 25px;">visit our office:</h1>
-            <p> Kiptagich House, 6th Floor, Eldoret</p>
+            <h1 style="font-size: 25px;" class="col-12">visit our office:</h1>
+            <p class="col-12"> Kiptagich House, 6th Floor, Eldoret</p>
 
           </div>
 
@@ -1156,8 +1197,8 @@ Game Development
            
           </div>
           <br>
-          <div class="inputBox">
-            <input type="submit" name="" value="Submit">
+          <div class="inputBox" >
+            <input type="submit" name="" value="Submit" >
           </div>
         </form>
       </div>
@@ -1169,15 +1210,17 @@ Game Development
     <!-- embed google map -->
     <div class="map-container">
       <h4><b>Our location</b></h4>
-      <iframe width="1000" height="306"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6537517135043!2d35.26623407670324!3d0.5203985638316329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1781018b02431f27%3A0xe38264b3ebe16e54!2sEldohub!5e0!3m2!1sen!2ske!4v1667442299907!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapframe"></iframe>
+      <p style="padding-left:300px;font-weight:600">We are located in Kiptagich house, 6th floor Eldoret,Uasin Gishu  County</p>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.6537517135043!2d35.26623407670324!3d0.5203985638316329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1781018b02431f27%3A0xe38264b3ebe16e54!2sEldohub!5e0!3m2!1sen!2ske!4v1667442299907!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mapframe"></iframe>
 
     </div>
+
 
     <!-- footer -->
     <footer class="footer">
       <div class="footer-container">
       <div class="sec aboutus">
-        <h2 class="abouth2"><b>About us</b></h2>
+        <h2 class="abouth2" style="padding-top:20px;"><b>About us</b></h2>
         <img  src="assets/images/logo.png" class="logoo-footer"/>
         <p class="aboutp">Kiptagich House Eldoret, 6th floor</p>
         <ul class="footer-links">
@@ -1187,8 +1230,8 @@ Game Development
         <li><a href="https://www.instagram.com/eldohub/?hl=en"><i class="fa fa-instagram" aria-hidden="true" style="color: black; font-size:20px"></i></a></li>
       </ul>
       </div>
-      <div class="quicklinks">
-        <h2>Quick Links</h2>
+      <div class="quicklinks" style="padding-top:20px;">
+        <h2>QuickLinks</h2>
         <ul>
           <li><a href="https://www.eldohub.co.ke/">Home</a></li>
           <li><a href="https://www.eldohub.co.ke/about">About</a></li>
@@ -1198,23 +1241,22 @@ Game Development
         </ul>
 
       </div>
-      <div class="tweets-footer">
-        <h2>Our Tweets</h2>
+      <div class="tweets-footer" style="padding-top:20px;">
+        <h2>OurTweets</h2>
         <a href="https://mobile.twitter.com/eldohub/with_replies">Eldohub tweets</a>
 
       </div>
-      <div class="our-programs">
+      <div class="our-programs" style="padding-top:20px;">
         <h2>Our Programs</h2>
         <ul>
         <li><a href="https://www.eldohub.co.ke/">Consultancy & IT Solutions</a></li>
           <li><a href="https://www.eldohub.co.ke/about">Miliki Program</a></li>
-          <li><a href="https://www.eldohub.co.ke/about">Digital Apprenticeship Program</a></li>
+          <li><a href="https://www.eldohub.co.ke/about">SasaKazi</a></li>
           <li><a href="https://www.eldohub.co.ke/">Kids Kona</a></li>
-          <li><a href="https://www.eldohub.co.ke/">EldoHub Innovation Academy</a></li>
-          <li><a href="https://www.eldohub.co.ke/">Kids Kona</a></li>
+          <li><a href="https://www.eldohub.co.ke/">Digital Apprenticeship Program</a></li>
+          <li><a href="https://www.eldohub.co.ke/">EldoHub Innovation <span>Academy</span></a></li>
           <li><a href="https://www.eldohub.co.ke/">21c Skills</a></li>
-          <li><a href="https://www.eldohub.co.ke/">Kids Kona</a></li>
-          <li><a href="https://www.eldohub.co.ke/">Ecohost</a></li>
+          <!-- <li><a href="https://www.eldohub.co.ke/">Ecohost</a></li> -->
         </ul>
       </div>
       </div>
