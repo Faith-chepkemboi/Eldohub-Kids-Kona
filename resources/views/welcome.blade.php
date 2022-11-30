@@ -76,7 +76,7 @@
   <!-- <script>
 window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
+var header = document.getElementById("myHeader")
 var sticky = header.offsetTop;
 
 function myFunction() {
@@ -109,8 +109,9 @@ function myFunction() {
   <br>
   <br>
   <div class="butt">
+
+  <button class="btn1"><a href="enroll.html" style="color:white ;">ENROLL ME</a></li></a></button> <span>
   
-  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button> <span>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button></span>
               <br>
               <br>
@@ -128,7 +129,7 @@ function myFunction() {
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
   <br>
   <br>
-  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+  <button class="btn1"><a href="enroll.html" style="color:white ;">ENROLL ME</a></li></a></button> <span>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
               <br>
               <br>
@@ -143,7 +144,7 @@ function myFunction() {
   <span style="color: white;">We inspire creativity & problem solving in kids and Teens through coding</span>
   <br>
   <br>
-  <button class="btn1" onclick="window.location.href='https://www.eldohub.co.ke/'">ENROLL ME</button>
+  <button class="btn1"><a href="enroll.html" style="color:white ;">ENROLL ME</a></li></a></button> <span>
               <button class="btn2" onclick="window.location.href='https://www.eldohub.co.ke/'">READ MORE</button>
 
               <br>
