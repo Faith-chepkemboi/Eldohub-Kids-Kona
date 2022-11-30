@@ -1,0 +1,164 @@
+*{
+    /* background-color: yellow; */
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+   
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+.backgroundimage{
+    background-size: cover;
+    width: 100%;
+    height: 60vh;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+.logoo{
+    position: absolute;
+    height: auto;
+    left: 500px;
+    width: 250px;
+    padding-bottom: 50px;
+}
+.ture{
+    /* background-color: tomato; */
+    /* padding-top: 70px; */
+    /* padding-left: 350px;
+    padding-right: 350px; */
+    /* padding-left: 100px;
+    padding-right: 100px;
+    background-color: gainsboro; */
+    /* background-color: gainsboro; */
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    padding-top: 0px;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+   
+  
+   
+    /* padding-top: 200px; */
+}
+.head{
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.ture p{ 
+    /* font-size: 20px; */
+    padding-left: 10px;
+    background-size: cover;
+    padding-right: 0px;
+    /* background-color: white; */
+}
+.ture li{
+    padding-left: 10px;
+}
+.head1{
+    /* background-color: red; */
+}
+.ture2{
+    background-color: gainsboro;
+    /* background-color: gainsboro; */
+    max-width: 800px;
+    /* margin: 50px auto; */
+    position: relative;
+    /* box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1); */
+   
+    padding-top: 100px;
+}
+.header{
+width: 100%;
+height: 20pz;
+/* background-color: #8cc63e; */
+border-radius: 10px;
+font-weight: bold;
+/* position: fixed; */
+color:black;
+cursor: pointer;
+/* border: 2px solid gainsboro; */
+
+
+  /* position:relative;
+  padding-bottom: 0px;
+  z-index: 999;
+  position: fixed;
+  width: 100%; */
+
+}
+
+   .get-in-touch{
+    background-color: gainsboro;
+    max-width: 800px;
+    margin: 50px auto;
+    position: relative;
+    box-shadow: 0 10px 30px 0px rgba(0,0,0,0.1);
+    padding: 30px;
+   }
+   .get-in-touch .title{
+    text-transform: uppercase;
+    text-align: center;
+    /* letter-spacing: 3px; */
+    /* font-size: 3em; */
+    /* line-height: 48px; */
+    padding-bottom: 20px;
+    font-weight: 100;
+    color: black;
+    /* background: #8cc63e; */
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+
+
+   } 
+   .form-field{
+    
+    /* margin: 32px 0;
+    position: relative; */
+    /* background-color: red; */
+   }
+   .contact-form .input-text{
+    /* display: block;
+    width: 100%;
+    height: 46px;
+    border-width: 0 0 2px 0;
+    border-color: #8cc63e;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400; */
+   }
+   .contact-form .input-text:focus{
+    /* position:absolute;
+    left: 20px;
+    bottom: 11px; */
+    /* outline: none; */
+   }
+   .contact-form .label{
+     /* position: absolute;
+    left: 20px;
+    bottom: 11px;
+    top: 11px;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 400;
+    color: black;
+    cursor: text;
+    transition: transform 0.2s ease-in-out;
+    text-transform: capitalize; */
+    
+
+   }
+   .submit-btn{
+    display: inline-block;
+    background-color: #8cc863;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 8px 16px;
+    border: none;
+    width: 200px;
+    cursor: pointer;
+   }
+   
